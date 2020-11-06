@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Card
+  m_Shader: {fileID: 4800000, guid: 0fd7bd8b7cbba6f4197acfa69a607822, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Back:
+        m_Texture: {fileID: 2800000, guid: 7a821f67783bc0c4f9de60b4d2f8b436, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Front:
+        m_Texture: {fileID: 2800000, guid: ccc6edda60f348643a3df62b6e646144, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_38099919_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b17c68c5dbf3c2a4d8d68a0a76ab353c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_C0A39996_Texture_1:
+        m_Texture: {fileID: 2800000, guid: ba1a764c6c300004fadb62b7b83f999a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_CDB51A2A_Texture_1:
+        m_Texture: {fileID: 2800000, guid: a8e9003f1b659fe48a1fd26d30f844f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_CEFD813D_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 1d47f92b6b66b274fadbc7f9c79d8106, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _IsFocus: 1
+    - _IsRed: 0
+    - _IsTemp: 1
+    - _gapWidth: 1.5
+    m_Colors: []

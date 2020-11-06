@@ -1,0 +1,149 @@
+[
+  {
+    "Name": "sid",
+    "Value": "58afrcn6",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "DedeUserID",
+    "Value": "1503466",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "DedeUserID__ckMd5",
+    "Value": "54bdd79da5dfdebf",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "SESSDATA",
+    "Value": "4f109ab4%2C1584974094%2Cdf96a321",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "bili_jct",
+    "Value": "acc142ac788efa5201d1f34e9df856b1",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "color",
+    "Value": "1",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "fontsize",
+    "Value": "1",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "msg",
+    "Value": "？",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "rnd",
+    "Value": "1",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "roomid",
+    "Value": "13517",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "bubble",
+    "Value": "1",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "csrf_token",
+    "Value": "acc142ac788efa5201d1f34e9df856b1",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "csrf",
+    "Value": "acc142ac788efa5201d1f34e9df856b1",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "SESSDATA",
+    "Value": "4f109ab4%2C1584974094%2Cdf96a321",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "Connection",
+    "Value": "keep-alive",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "oauthKey",
+    "Value": "6a14612505fcc3ffffcd61e6cac82481",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "gourl",
+    "Value": "https://passport.bilibili.com/account/security",
+    "Type": 1,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "DedeUserID",
+    "Value": "1503466",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "DedeUserID__ckMd5",
+    "Value": "54bdd79da5dfdebf",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "SESSDATA",
+    "Value": "f35b8b1a%2C1604666349%2C6d76e*51",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  },
+  {
+    "Name": "bili_jct",
+    "Value": "a47762d26eedf1cfc90498a5b02272b7",
+    "Type": 0,
+    "DataFormat": 0,
+    "ContentType": null
+  }
+]

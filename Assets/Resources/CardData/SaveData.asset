@@ -1,0 +1,2811 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23449c37c76c84b4ab05445f817bc7a9, type: 3}
+  m_Name: SaveData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: b900e60c472fe0e4f890481decd1f33c, type: 3}
+    - {fileID: 2800000, guid: 89ffa7da606946a45a678520c24373ca, type: 3}
+    - {fileID: 2800000, guid: bc9935e38df1b43459a9877ff6288742, type: 3}
+    - {fileID: 2800000, guid: 611a83f9c4ef3fc41b3210463c9ec0d5, type: 3}
+    - {fileID: 2800000, guid: 466651fa849a4bb4ebbc1dbc573cbef7, type: 3}
+    - {fileID: 2800000, guid: d99c60f34dfb8f6429f6005a62d9dce5, type: 3}
+    - {fileID: 2800000, guid: 86b9a489d4fb14e4389def346e1fdb61, type: 3}
+    - {fileID: 2800000, guid: d5d7efc4b9e60aa4b8c71c485525f824, type: 3}
+    - {fileID: 2800000, guid: f7a4df42a218fc344b92903babb445d3, type: 3}
+    - {fileID: 2800000, guid: adb3fdc43825cf34088182aeff86debb, type: 3}
+    - {fileID: 2800000, guid: 288dd6542dd7fe748af27a20be78506a, type: 3}
+    - {fileID: 2800000, guid: d7830024a45bb914080acc73e7f971b9, type: 3}
+    - {fileID: 2800000, guid: 7b0a55f7976988d44aeda1981ce595ce, type: 3}
+    - {fileID: 2800000, guid: a0dd64c89f835c2409dcd8b8507e1ad4, type: 3}
+    - {fileID: 2800000, guid: 2478b06134676534398def56aaf52edd, type: 3}
+    - {fileID: 2800000, guid: cc833378deb9a504f94395f56bf5596b, type: 3}
+    - {fileID: 2800000, guid: 586f0656a7e8a294396feeb3acbdbf43, type: 3}
+    - {fileID: 2800000, guid: 85ff3bdfb8dff6142a341096c83d8a2e, type: 3}
+    - {fileID: 2800000, guid: 35d7ef2d17ad07447861519e2539c9b1, type: 3}
+    - {fileID: 2800000, guid: 8ec3224b1a98c7d4ebf3af33eadb5314, type: 3}
+    - {fileID: 2800000, guid: 6de65329c0af66a42b5cad9e164d39e8, type: 3}
+    - {fileID: 2800000, guid: a3e36d8df3e5f6744858f13cdca4521e, type: 3}
+    - {fileID: 2800000, guid: c8e3e0f6fc6791a4e97d086d457e830b, type: 3}
+    - {fileID: 2800000, guid: b6f5ca53834f49a41aba7f58d32feb2d, type: 3}
+    - {fileID: 2800000, guid: f5179550d13b2f1449f9f3567dfcf31c, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: levelLibries
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Info.CardInspector.CardLibraryInfo+LevelLibrary, Assembly-CSharp
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: sectarianCardLibraries
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 0
+    - Name: cardNum
+      Entry: 3
+      Data: 0
+    - Name: cardIcon
+      Entry: 6
+      Data: 
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: cardName
+      Entry: 6
+      Data: 
+    - Name: point
+      Entry: 3
+      Data: 0
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 16
+    - Name: 
+      Entry: 7
+      Data: 5|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 1
+    - Name: cardId
+      Entry: 3
+      Data: 10001
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u677F\u70E7\u742A\u9732\u8BFA"
+    - Name: point
+      Entry: 3
+      Data: 9
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 1
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF0C\u529B\u7AED\uFF081\uFF09\uFF1A\u6211\u65B9\u573A\u4E0A\u6BCF\u5B58\u5728\u4E00\u4E2A\u5996\u7CBE\u5355\u4F4D\u4E14\u81EA\u8EAB\u70B9\u6570\u5927\u4E8E1\u65F6\u4FBF\u5BF9\u5BF9\u65B9\u573A\u4E0A\u9020\u6210\u4E00\u6B211\u70B9\u4F24\u5BB3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 2
+    - Name: cardId
+      Entry: 3
+      Data: 10002
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u5927\u5996\u7CBE"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 2
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 2
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u6CBB\u6108\u4E00\u4E2A\u975E\u91D1\u5996\u7CBE\u5355\u4F4D\u5E76\u91CD\u65B0\u89E6\u53D1\u5176\u90E8\u7F72\u6548\u679C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 3
+    - Name: cardId
+      Entry: 3
+      Data: 10003
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u6851\u5C3C*\u592A\u9633\u62F3"
+    - Name: point
+      Entry: 3
+      Data: 4
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 2
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 1
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u6467\u6BC1\u573A\u4E0A\u6240\u6709\u70B9\u6570\u6700\u5927\u7684\u975E\u91D1\u5355\u4F4D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 4
+    - Name: cardId
+      Entry: 3
+      Data: 10004
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u9732\u5A1C"
+    - Name: point
+      Entry: 3
+      Data: 3
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 2
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 2
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u5BF9\u4E00\u884C\u6700\u5DE6\u4FA7\u4E2A\u5355\u4F4D\u9020\u6210x+1\u70B9\u4F24\u5BB3\uFF0C\u5E76\u5411\u53F3\u4FA7\u4F9D\u6B64\u9012\u51CF\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 5
+    - Name: cardId
+      Entry: 3
+      Data: 10005
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u65AF\u5854*\u661F\u77F3\u5760\u843D"
+    - Name: point
+      Entry: 3
+      Data: 3
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 2
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u5BF9\u573A\u4E0A\u6240\u6709\u6700\u9AD8\u7684\u975E\u91D1\u5355\u4F4D\u9020\u6210\u4E00\u70B9\u4F24\u5BB3\uFF0C\u91CD\u590Dx+1\u6B21\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 6
+    - Name: cardId
+      Entry: 3
+      Data: 10006
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u4E09\u6708\u7CBE*\u65E5"
+    - Name: point
+      Entry: 3
+      Data: 3
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 1
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u53EC\u5524\u724C\u5E93\u4E2D\u7684\u4E09\u6708\u7CBE*\u6708\uFF0C\u4E09\u6708\u7CBE*\u661F\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 7
+    - Name: cardId
+      Entry: 3
+      Data: 10007
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u4E09\u6708\u7CBE*\u6708"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 2
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u53EC\u5524\u724C\u5E93\u4E2D\u7684\u4E09\u6708\u7CBE*\u65E5\uFF0C\u4E09\u6708\u7CBE*\u6708\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 8
+    - Name: cardId
+      Entry: 3
+      Data: 10008
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u4E09\u6708\u7CBE*\u661F"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u53EC\u5524\u724C\u5E93\u4E2D\u7684\u4E09\u6708\u7CBE*\u65E5\uFF0C\u4E09\u6708\u7CBE*\u661F\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 9
+    - Name: cardId
+      Entry: 3
+      Data: 10009
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u742A\u9732\u8BFA"
+    - Name: point
+      Entry: 3
+      Data: 5
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u9501\u5B9A1+x\u4E2A\u5355\u4F4D\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 10
+    - Name: cardId
+      Entry: 3
+      Data: 10010
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u8389\u8389\u767D"
+    - Name: point
+      Entry: 3
+      Data: 6
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 4
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u6C38\u4E45\u5F3A\u5316\u6240\u6709\u5996\u7CBE\u724C\u7684\u6D3B\u529B\u70B9\u65701\u70B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 11
+    - Name: cardId
+      Entry: 3
+      Data: 10011
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u514B\u52B3\u6069\u76AE\u65AF"
+    - Name: point
+      Entry: 3
+      Data: 6
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 1
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u7FFB\u500D\u81F3\u591A\u4E24\u4E2A\u5996\u7CBE\u5355\u4F4D\u7684\u6D3B\u529B\u503C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 12
+    - Name: cardId
+      Entry: 3
+      Data: 10012
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u9F13\u821E\u5C0F\u5996\u7CBE"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 4
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u6CBB\u6108\u4E00\u4E2A\u5996\u7CBE\u5355\u4F4D\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 13
+    - Name: cardId
+      Entry: 3
+      Data: 10013
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u6218\u7565\u8F6C\u79FB"
+    - Name: point
+      Entry: 3
+      Data: 0
+    - Name: cardType
+      Entry: 3
+      Data: 1
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 4
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u7B56\u7565"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u91CD\u65B0\u6253\u51FA\u4E00\u5F20\u975E\u91D1\u5996\u7CBE\u5355\u4F4D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 14
+    - Name: cardId
+      Entry: 3
+      Data: 10014
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u5F31\u5C0F\u5996\u7CBE"
+    - Name: point
+      Entry: 3
+      Data: 1
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 4
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u4ECE\u5361\u7EC4\u4E2D\u968F\u673A\u6253\u51FA\u4E00\u5F20\u70B9\u6570\u6700\u4F4E\u7684\u5996\u7CBE\u5355\u4F4D\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 15
+    - Name: cardId
+      Entry: 3
+      Data: 10015
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u72C2\u5984\u5C0F\u5996\u7CBE"
+    - Name: point
+      Entry: 3
+      Data: 4
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 4
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u5BF9\u5BF9\u65B9\u968F\u673A\u4E00\u4E2A\u70B9\u6570\u6700\u5927\u7684\u975E\u91D1\u5355\u4F4D\u9020\u62101\u70B9\u4F24\u5BB3\uFF0C\u91CD\u590D1+x\u6B21\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 16
+    - Name: cardId
+      Entry: 3
+      Data: 10016
+    - Name: level
+      Entry: 1
+      Data: 0-0
+    - Name: cardName
+      Entry: 1
+      Data: "\u6A31\u77F3"
+    - Name: point
+      Entry: 3
+      Data: 0
+    - Name: cardType
+      Entry: 3
+      Data: 1
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 4
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u7269\u4F53"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u90E8\u7F72\uFF1A\u590D\u6D3B\u4E00\u4E2A\u94DC\u8272\u5996\u7CBE\u5355\u4F4D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rankLibraries
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 22|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 17
+    - Name: rank
+      Entry: 3
+      Data: 1
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 18
+    - Name: rank
+      Entry: 3
+      Data: 2
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 9
+      Data: 6
+    - Name: 
+      Entry: 9
+      Data: 7
+    - Name: 
+      Entry: 9
+      Data: 8
+    - Name: 
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 19
+    - Name: rank
+      Entry: 3
+      Data: 3
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 9
+      Data: 13
+    - Name: 
+      Entry: 9
+      Data: 14
+    - Name: 
+      Entry: 9
+      Data: 15
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 28|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 20
+    - Name: rank
+      Entry: 3
+      Data: 4
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 9
+      Data: 16
+    - Name: 
+      Entry: 9
+      Data: 17
+    - Name: 
+      Entry: 9
+      Data: 18
+    - Name: 
+      Entry: 9
+      Data: 19
+    - Name: 
+      Entry: 9
+      Data: 20
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 16
+    - Name: 
+      Entry: 9
+      Data: 5
+    - Name: 
+      Entry: 9
+      Data: 6
+    - Name: 
+      Entry: 9
+      Data: 7
+    - Name: 
+      Entry: 9
+      Data: 8
+    - Name: 
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 9
+      Data: 13
+    - Name: 
+      Entry: 9
+      Data: 14
+    - Name: 
+      Entry: 9
+      Data: 15
+    - Name: 
+      Entry: 9
+      Data: 16
+    - Name: 
+      Entry: 9
+      Data: 17
+    - Name: 
+      Entry: 9
+      Data: 18
+    - Name: 
+      Entry: 9
+      Data: 19
+    - Name: 
+      Entry: 9
+      Data: 20
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|Info.CardInspector.CardLibraryInfo+LevelLibrary, Assembly-CSharp
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: sectarianCardLibraries
+      Entry: 7
+      Data: 32|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 33|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 0
+    - Name: cardNum
+      Entry: 3
+      Data: 0
+    - Name: cardIcon
+      Entry: 6
+      Data: 
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: cardName
+      Entry: 6
+      Data: 
+    - Name: point
+      Entry: 3
+      Data: 0
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 34|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 16
+    - Name: 
+      Entry: 7
+      Data: 35|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 1
+    - Name: cardId
+      Entry: 3
+      Data: 20001
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u677F\u70E7\u742A\u9732\u8BFA"
+    - Name: point
+      Entry: 3
+      Data: 9
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 1
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u6211\u65B9\u573A\u4E0A\u6BCF\u5B58\u5728\u4E00\u4E2A\u5996\u7CBE\u5355\u4F4D\u4E14\u81EA\u8EAB\u70B9\u6570\u5927\u4E8E1\u65F6\u4FBF\u5BF9\u5BF9\u65B9\u573A\u4E0A\u9020\u6210\u4E00\u6B211\u70B9\u4F24\u5BB3\uFF0C\u8870\u90001"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 2
+    - Name: cardId
+      Entry: 3
+      Data: 20002
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u5927\u5996\u7CBE"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 2
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 2
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u6CBB\u6108\u4E00\u4E2A\u975E\u91D1\u5996\u7CBE\u5355\u4F4D\u5E76\u91CD\u65B0\u89E6\u53D1\u5176\u90E8\u7F72\u6548\u679C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 3
+    - Name: cardId
+      Entry: 3
+      Data: 20003
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u6851\u5C3C*\u7F2A\u514B"
+    - Name: point
+      Entry: 3
+      Data: 4
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 2
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 1
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u6467\u6BC1\u573A\u4E0A\u6240\u6709\u70B9\u6570\u6700\u5927\u7684\u975E\u91D1\u5355\u4F4D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 4
+    - Name: cardId
+      Entry: 3
+      Data: 20004
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u9732\u5A1C"
+    - Name: point
+      Entry: 3
+      Data: 1
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 2
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 2
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u5BF9\u573A\u4E0A\u6240\u6709\u6700\u9AD8\u7684\u5355\u4F4D\u9020\u6210\u4E00\u70B9\u4F24\u5BB3\uFF0C\u91CD\u590Dx+1\u6B21\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 39|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 5
+    - Name: cardId
+      Entry: 3
+      Data: 20005
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u65AF\u5854"
+    - Name: point
+      Entry: 3
+      Data: 3
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 2
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u5BF9\u4E00\u884C\u6700\u5DE6\u4FA7\u4E2A\u5355\u4F4D\u9020\u6210x+1\u70B9\u4F24\u5BB3\uFF0C\u5E76\u5411\u53F3\u4FA7\u4F9D\u6B64\u9012\u51CF\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 6
+    - Name: cardId
+      Entry: 3
+      Data: 20006
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u4E09\u6708\u7CBE*\u65E5"
+    - Name: point
+      Entry: 3
+      Data: 3
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 1
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u53EC\u5524\u6708\uFF0C\u661F\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 7
+    - Name: cardId
+      Entry: 3
+      Data: 20007
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u4E09\u6708\u7CBE*\u6708"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 2
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u53EC\u5524\u65E5\uFF0C\u661F\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 8
+    - Name: cardId
+      Entry: 3
+      Data: 20008
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u4E09\u6708\u7CBE*\u661F"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u53EC\u5524\u65E5\uFF0C\u6708\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 9
+    - Name: cardId
+      Entry: 3
+      Data: 20009
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u742A\u9732\u8BFA"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u9501\u5B9A1+x\u4E2A\u5355\u4F4D\u5E76\u7ED9\u4E0E2\u70B9\u4F24\u5BB3\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 10
+    - Name: cardId
+      Entry: 3
+      Data: 20010
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u8389\u8389\u767D"
+    - Name: point
+      Entry: 3
+      Data: 6
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u6C38\u4E45\u5F3A\u5316\u6240\u6709\u5996\u7CBE\u724C\u7684\u6D3B\u529B\u70B9\u65701"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 11
+    - Name: cardId
+      Entry: 3
+      Data: 20011
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u7F8E\u56FD\u5C0F\u5996\u7CBE"
+    - Name: point
+      Entry: 3
+      Data: 6
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 3
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u7FFB\u500D\u4E24\u4E2A\u5996\u7CBE\u5355\u4F4D\u7684\u6D3B\u529B\u503C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 12
+    - Name: cardId
+      Entry: 3
+      Data: 20012
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u9F13\u821E\u5C0F\u5996\u7CBE"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u6CBB\u6108\u4E00\u4E2A\u5996\u7CBE\u5355\u4F4D\uFF0C\u6D3B\u529B2"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 47|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 13
+    - Name: cardId
+      Entry: 3
+      Data: 20013
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u6218\u7565\u8F6C\u79FB"
+    - Name: point
+      Entry: 3
+      Data: 0
+    - Name: cardType
+      Entry: 3
+      Data: 1
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u7B56\u7565"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u91CD\u65B0\u6253\u51FA\u4E00\u5F20\u975E\u91D1\u5996\u7CBE\u5355\u4F4D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 48|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 14
+    - Name: cardId
+      Entry: 3
+      Data: 20014
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u5F31\u5C0F\u5996\u7CBE"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u4ECE\u5361\u7EC4\u4E2D\u968F\u673A\u6253\u51FA\u4E00\u5F20\u70B9\u6570\u6700\u4F4E\u7684\u5996\u7CBE\u5355\u4F4D\uFF0C\u6D3B\u529B\uFF081\uFF09"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 15
+    - Name: cardId
+      Entry: 3
+      Data: 20015
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u72C2\u5984\u5C0F\u5996\u7CBE"
+    - Name: point
+      Entry: 3
+      Data: 2
+    - Name: cardType
+      Entry: 3
+      Data: 0
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u5996\u7CBE"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u5BF9\u5BF9\u65B9\u968F\u673A\u4E00\u4E2A\u70B9\u6570\u6700\u5927\u7684\u5355\u4F4D\u9020\u62101\u70B9\u4F24\u5BB3\uFF0C\u91CD\u590D1+x\u6B21\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 16
+    - Name: cardId
+      Entry: 3
+      Data: 20016
+    - Name: level
+      Entry: 1
+      Data: "\u591A\u4EBA"
+    - Name: cardName
+      Entry: 1
+      Data: "\u6A31\u77F3"
+    - Name: point
+      Entry: 3
+      Data: 0
+    - Name: cardType
+      Entry: 3
+      Data: 1
+    - Name: cardRank
+      Entry: 3
+      Data: 4
+    - Name: sectarian
+      Entry: 3
+      Data: 0
+    - Name: sectarian1
+      Entry: 3
+      Data: 0
+    - Name: cardProperty
+      Entry: 3
+      Data: 0
+    - Name: cardTerritory
+      Entry: 3
+      Data: 0
+    - Name: cardTag
+      Entry: 1
+      Data: "\u7269\u4F53"
+    - Name: describe
+      Entry: 1
+      Data: 
+    - Name: ability
+      Entry: 1
+      Data: "\u590D\u6D3B\u4E00\u4E2A\u94DC\u8272\u5996\u7CBE\u5355\u4F4D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rankLibraries
+      Entry: 7
+      Data: 51|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 52|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 17
+    - Name: rank
+      Entry: 3
+      Data: 1
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 53|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 35
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 54|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 18
+    - Name: rank
+      Entry: 3
+      Data: 2
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 55|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 9
+      Data: 36
+    - Name: 
+      Entry: 9
+      Data: 37
+    - Name: 
+      Entry: 9
+      Data: 38
+    - Name: 
+      Entry: 9
+      Data: 39
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 56|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 19
+    - Name: rank
+      Entry: 3
+      Data: 3
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 9
+      Data: 40
+    - Name: 
+      Entry: 9
+      Data: 41
+    - Name: 
+      Entry: 9
+      Data: 42
+    - Name: 
+      Entry: 9
+      Data: 43
+    - Name: 
+      Entry: 9
+      Data: 44
+    - Name: 
+      Entry: 9
+      Data: 45
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary,
+        Assembly-CSharp
+    - Name: icon
+      Entry: 10
+      Data: 20
+    - Name: rank
+      Entry: 3
+      Data: 4
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 9
+      Data: 46
+    - Name: 
+      Entry: 9
+      Data: 47
+    - Name: 
+      Entry: 9
+      Data: 48
+    - Name: 
+      Entry: 9
+      Data: 49
+    - Name: 
+      Entry: 9
+      Data: 50
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: cardModelInfos
+      Entry: 7
+      Data: 60|System.Collections.Generic.List`1[[Info.CardInspector.CardLibraryInfo+LevelLibrary+SectarianCardLibrary+RankLibrary+CardModelInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 16
+    - Name: 
+      Entry: 9
+      Data: 35
+    - Name: 
+      Entry: 9
+      Data: 36
+    - Name: 
+      Entry: 9
+      Data: 37
+    - Name: 
+      Entry: 9
+      Data: 38
+    - Name: 
+      Entry: 9
+      Data: 39
+    - Name: 
+      Entry: 9
+      Data: 40
+    - Name: 
+      Entry: 9
+      Data: 41
+    - Name: 
+      Entry: 9
+      Data: 42
+    - Name: 
+      Entry: 9
+      Data: 43
+    - Name: 
+      Entry: 9
+      Data: 44
+    - Name: 
+      Entry: 9
+      Data: 45
+    - Name: 
+      Entry: 9
+      Data: 46
+    - Name: 
+      Entry: 9
+      Data: 47
+    - Name: 
+      Entry: 9
+      Data: 48
+    - Name: 
+      Entry: 9
+      Data: 49
+    - Name: 
+      Entry: 9
+      Data: 50
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: sectarianIcons
+      Entry: 7
+      Data: 61|UnityEngine.Rendering.SerializedDictionary`2[[GameEnum.Sectarian,
+        Assembly-CSharp],[UnityEngine.Texture2D, UnityEngine.CoreModule]], Unity.RenderPipelines.Core.Runtime
+    - Name: comparer
+      Entry: 7
+      Data: 62|System.Collections.Generic.EnumEqualityComparer`1[[GameEnum.Sectarian,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rankIcons
+      Entry: 7
+      Data: 63|System.Collections.Generic.Dictionary`2[[GameEnum.CardRank, Assembly-CSharp],[UnityEngine.Texture2D,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 64|System.Collections.Generic.EnumEqualityComparer`1[[GameEnum.CardRank,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  singleModeCards:
+  - icon: {fileID: 2800000, guid: 89ffa7da606946a45a678520c24373ca, type: 3}
+    cardId: 10001
+    level: 0-0
+    cardName: "\u677F\u70E7\u742A\u9732\u8BFA"
+    point: 9
+    cardType: 0
+    cardRank: 1
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF0C\u529B\u7AED\uFF081\uFF09\uFF1A\u6211\u65B9\u573A\u4E0A\u6BCF\u5B58\u5728\u4E00\u4E2A\u5996\u7CBE\u5355\u4F4D\u4E14\u81EA\u8EAB\u70B9\u6570\u5927\u4E8E1\u65F6\u4FBF\u5BF9\u5BF9\u65B9\u573A\u4E0A\u9020\u6210\u4E00\u6B211\u70B9\u4F24\u5BB3"
+  - icon: {fileID: 2800000, guid: bc9935e38df1b43459a9877ff6288742, type: 3}
+    cardId: 10002
+    level: 0-0
+    cardName: "\u5927\u5996\u7CBE"
+    point: 2
+    cardType: 0
+    cardRank: 2
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 2
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u6CBB\u6108\u4E00\u4E2A\u975E\u91D1\u5996\u7CBE\u5355\u4F4D\u5E76\u91CD\u65B0\u89E6\u53D1\u5176\u90E8\u7F72\u6548\u679C"
+  - icon: {fileID: 2800000, guid: 611a83f9c4ef3fc41b3210463c9ec0d5, type: 3}
+    cardId: 10003
+    level: 0-0
+    cardName: "\u6851\u5C3C*\u592A\u9633\u62F3"
+    point: 4
+    cardType: 0
+    cardRank: 2
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 1
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u6467\u6BC1\u573A\u4E0A\u6240\u6709\u70B9\u6570\u6700\u5927\u7684\u975E\u91D1\u5355\u4F4D"
+  - icon: {fileID: 2800000, guid: 466651fa849a4bb4ebbc1dbc573cbef7, type: 3}
+    cardId: 10004
+    level: 0-0
+    cardName: "\u9732\u5A1C"
+    point: 3
+    cardType: 0
+    cardRank: 2
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 2
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u5BF9\u4E00\u884C\u6700\u5DE6\u4FA7\u4E2A\u5355\u4F4D\u9020\u6210x+1\u70B9\u4F24\u5BB3\uFF0C\u5E76\u5411\u53F3\u4FA7\u4F9D\u6B64\u9012\u51CF\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+  - icon: {fileID: 2800000, guid: d99c60f34dfb8f6429f6005a62d9dce5, type: 3}
+    cardId: 10005
+    level: 0-0
+    cardName: "\u65AF\u5854*\u661F\u77F3\u5760\u843D"
+    point: 3
+    cardType: 0
+    cardRank: 2
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u5BF9\u573A\u4E0A\u6240\u6709\u6700\u9AD8\u7684\u975E\u91D1\u5355\u4F4D\u9020\u6210\u4E00\u70B9\u4F24\u5BB3\uFF0C\u91CD\u590Dx+1\u6B21\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+  - icon: {fileID: 2800000, guid: 86b9a489d4fb14e4389def346e1fdb61, type: 3}
+    cardId: 10006
+    level: 0-0
+    cardName: "\u4E09\u6708\u7CBE*\u65E5"
+    point: 3
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 1
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u53EC\u5524\u724C\u5E93\u4E2D\u7684\u4E09\u6708\u7CBE*\u6708\uFF0C\u4E09\u6708\u7CBE*\u661F\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+  - icon: {fileID: 2800000, guid: d5d7efc4b9e60aa4b8c71c485525f824, type: 3}
+    cardId: 10007
+    level: 0-0
+    cardName: "\u4E09\u6708\u7CBE*\u6708"
+    point: 2
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 2
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u53EC\u5524\u724C\u5E93\u4E2D\u7684\u4E09\u6708\u7CBE*\u65E5\uFF0C\u4E09\u6708\u7CBE*\u6708\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+  - icon: {fileID: 2800000, guid: f7a4df42a218fc344b92903babb445d3, type: 3}
+    cardId: 10008
+    level: 0-0
+    cardName: "\u4E09\u6708\u7CBE*\u661F"
+    point: 2
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u53EC\u5524\u724C\u5E93\u4E2D\u7684\u4E09\u6708\u7CBE*\u65E5\uFF0C\u4E09\u6708\u7CBE*\u661F\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+  - icon: {fileID: 2800000, guid: adb3fdc43825cf34088182aeff86debb, type: 3}
+    cardId: 10009
+    level: 0-0
+    cardName: "\u742A\u9732\u8BFA"
+    point: 5
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u9501\u5B9A1+x\u4E2A\u5355\u4F4D\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+  - icon: {fileID: 2800000, guid: 288dd6542dd7fe748af27a20be78506a, type: 3}
+    cardId: 10010
+    level: 0-0
+    cardName: "\u8389\u8389\u767D"
+    point: 6
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 4
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u6C38\u4E45\u5F3A\u5316\u6240\u6709\u5996\u7CBE\u724C\u7684\u6D3B\u529B\u70B9\u65701\u70B9"
+  - icon: {fileID: 2800000, guid: d7830024a45bb914080acc73e7f971b9, type: 3}
+    cardId: 10011
+    level: 0-0
+    cardName: "\u514B\u52B3\u6069\u76AE\u65AF"
+    point: 6
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 1
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u7FFB\u500D\u81F3\u591A\u4E24\u4E2A\u5996\u7CBE\u5355\u4F4D\u7684\u6D3B\u529B\u503C"
+  - icon: {fileID: 2800000, guid: 7b0a55f7976988d44aeda1981ce595ce, type: 3}
+    cardId: 10012
+    level: 0-0
+    cardName: "\u9F13\u821E\u5C0F\u5996\u7CBE"
+    point: 2
+    cardType: 0
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 4
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u6CBB\u6108\u4E00\u4E2A\u5996\u7CBE\u5355\u4F4D\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+  - icon: {fileID: 2800000, guid: a0dd64c89f835c2409dcd8b8507e1ad4, type: 3}
+    cardId: 10013
+    level: 0-0
+    cardName: "\u6218\u7565\u8F6C\u79FB"
+    point: 0
+    cardType: 1
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 4
+    cardTerritory: 0
+    cardTag: "\u7B56\u7565"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u91CD\u65B0\u6253\u51FA\u4E00\u5F20\u975E\u91D1\u5996\u7CBE\u5355\u4F4D"
+  - icon: {fileID: 2800000, guid: 2478b06134676534398def56aaf52edd, type: 3}
+    cardId: 10014
+    level: 0-0
+    cardName: "\u5F31\u5C0F\u5996\u7CBE"
+    point: 1
+    cardType: 0
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 4
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u4ECE\u5361\u7EC4\u4E2D\u968F\u673A\u6253\u51FA\u4E00\u5F20\u70B9\u6570\u6700\u4F4E\u7684\u5996\u7CBE\u5355\u4F4D\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+  - icon: {fileID: 2800000, guid: cc833378deb9a504f94395f56bf5596b, type: 3}
+    cardId: 10015
+    level: 0-0
+    cardName: "\u72C2\u5984\u5C0F\u5996\u7CBE"
+    point: 4
+    cardType: 0
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 4
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u5BF9\u5BF9\u65B9\u968F\u673A\u4E00\u4E2A\u70B9\u6570\u6700\u5927\u7684\u975E\u91D1\u5355\u4F4D\u9020\u62101\u70B9\u4F24\u5BB3\uFF0C\u91CD\u590D1+x\u6B21\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+  - icon: {fileID: 2800000, guid: 586f0656a7e8a294396feeb3acbdbf43, type: 3}
+    cardId: 10016
+    level: 0-0
+    cardName: "\u6A31\u77F3"
+    point: 0
+    cardType: 1
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 4
+    cardTerritory: 0
+    cardTag: "\u7269\u4F53"
+    describe: 
+    ability: "\u90E8\u7F72\uFF1A\u590D\u6D3B\u4E00\u4E2A\u94DC\u8272\u5996\u7CBE\u5355\u4F4D"
+  multiModeCards:
+  - icon: {fileID: 2800000, guid: 89ffa7da606946a45a678520c24373ca, type: 3}
+    cardId: 20001
+    level: "\u591A\u4EBA"
+    cardName: "\u677F\u70E7\u742A\u9732\u8BFA"
+    point: 9
+    cardType: 0
+    cardRank: 1
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u6211\u65B9\u573A\u4E0A\u6BCF\u5B58\u5728\u4E00\u4E2A\u5996\u7CBE\u5355\u4F4D\u4E14\u81EA\u8EAB\u70B9\u6570\u5927\u4E8E1\u65F6\u4FBF\u5BF9\u5BF9\u65B9\u573A\u4E0A\u9020\u6210\u4E00\u6B211\u70B9\u4F24\u5BB3\uFF0C\u8870\u90001"
+  - icon: {fileID: 2800000, guid: bc9935e38df1b43459a9877ff6288742, type: 3}
+    cardId: 20002
+    level: "\u591A\u4EBA"
+    cardName: "\u5927\u5996\u7CBE"
+    point: 2
+    cardType: 0
+    cardRank: 2
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 2
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u6CBB\u6108\u4E00\u4E2A\u975E\u91D1\u5996\u7CBE\u5355\u4F4D\u5E76\u91CD\u65B0\u89E6\u53D1\u5176\u90E8\u7F72\u6548\u679C"
+  - icon: {fileID: 2800000, guid: 611a83f9c4ef3fc41b3210463c9ec0d5, type: 3}
+    cardId: 20003
+    level: "\u591A\u4EBA"
+    cardName: "\u6851\u5C3C*\u7F2A\u514B"
+    point: 4
+    cardType: 0
+    cardRank: 2
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 1
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u6467\u6BC1\u573A\u4E0A\u6240\u6709\u70B9\u6570\u6700\u5927\u7684\u975E\u91D1\u5355\u4F4D"
+  - icon: {fileID: 2800000, guid: 466651fa849a4bb4ebbc1dbc573cbef7, type: 3}
+    cardId: 20004
+    level: "\u591A\u4EBA"
+    cardName: "\u9732\u5A1C"
+    point: 1
+    cardType: 0
+    cardRank: 2
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 2
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u5BF9\u573A\u4E0A\u6240\u6709\u6700\u9AD8\u7684\u5355\u4F4D\u9020\u6210\u4E00\u70B9\u4F24\u5BB3\uFF0C\u91CD\u590Dx+1\u6B21\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+  - icon: {fileID: 2800000, guid: d99c60f34dfb8f6429f6005a62d9dce5, type: 3}
+    cardId: 20005
+    level: "\u591A\u4EBA"
+    cardName: "\u65AF\u5854"
+    point: 3
+    cardType: 0
+    cardRank: 2
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u5BF9\u4E00\u884C\u6700\u5DE6\u4FA7\u4E2A\u5355\u4F4D\u9020\u6210x+1\u70B9\u4F24\u5BB3\uFF0C\u5E76\u5411\u53F3\u4FA7\u4F9D\u6B64\u9012\u51CF\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+  - icon: {fileID: 2800000, guid: 86b9a489d4fb14e4389def346e1fdb61, type: 3}
+    cardId: 20006
+    level: "\u591A\u4EBA"
+    cardName: "\u4E09\u6708\u7CBE*\u65E5"
+    point: 3
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 1
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u53EC\u5524\u6708\uFF0C\u661F\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+  - icon: {fileID: 2800000, guid: d5d7efc4b9e60aa4b8c71c485525f824, type: 3}
+    cardId: 20007
+    level: "\u591A\u4EBA"
+    cardName: "\u4E09\u6708\u7CBE*\u6708"
+    point: 2
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 2
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u53EC\u5524\u65E5\uFF0C\u661F\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+  - icon: {fileID: 2800000, guid: f7a4df42a218fc344b92903babb445d3, type: 3}
+    cardId: 20008
+    level: "\u591A\u4EBA"
+    cardName: "\u4E09\u6708\u7CBE*\u661F"
+    point: 2
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u53EC\u5524\u65E5\uFF0C\u6708\uFF0C\u6D3B\u529B\uFF08{x}\uFF09"
+  - icon: {fileID: 2800000, guid: adb3fdc43825cf34088182aeff86debb, type: 3}
+    cardId: 20009
+    level: "\u591A\u4EBA"
+    cardName: "\u742A\u9732\u8BFA"
+    point: 2
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u9501\u5B9A1+x\u4E2A\u5355\u4F4D\u5E76\u7ED9\u4E0E2\u70B9\u4F24\u5BB3\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+  - icon: {fileID: 2800000, guid: 288dd6542dd7fe748af27a20be78506a, type: 3}
+    cardId: 20010
+    level: "\u591A\u4EBA"
+    cardName: "\u8389\u8389\u767D"
+    point: 6
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u6C38\u4E45\u5F3A\u5316\u6240\u6709\u5996\u7CBE\u724C\u7684\u6D3B\u529B\u70B9\u65701"
+  - icon: {fileID: 2800000, guid: d7830024a45bb914080acc73e7f971b9, type: 3}
+    cardId: 20011
+    level: "\u591A\u4EBA"
+    cardName: "\u7F8E\u56FD\u5C0F\u5996\u7CBE"
+    point: 6
+    cardType: 0
+    cardRank: 3
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u7FFB\u500D\u4E24\u4E2A\u5996\u7CBE\u5355\u4F4D\u7684\u6D3B\u529B\u503C"
+  - icon: {fileID: 2800000, guid: 7b0a55f7976988d44aeda1981ce595ce, type: 3}
+    cardId: 20012
+    level: "\u591A\u4EBA"
+    cardName: "\u9F13\u821E\u5C0F\u5996\u7CBE"
+    point: 2
+    cardType: 0
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u6CBB\u6108\u4E00\u4E2A\u5996\u7CBE\u5355\u4F4D\uFF0C\u6D3B\u529B2"
+  - icon: {fileID: 2800000, guid: a0dd64c89f835c2409dcd8b8507e1ad4, type: 3}
+    cardId: 20013
+    level: "\u591A\u4EBA"
+    cardName: "\u6218\u7565\u8F6C\u79FB"
+    point: 0
+    cardType: 1
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u7B56\u7565"
+    describe: 
+    ability: "\u91CD\u65B0\u6253\u51FA\u4E00\u5F20\u975E\u91D1\u5996\u7CBE\u5355\u4F4D"
+  - icon: {fileID: 2800000, guid: 2478b06134676534398def56aaf52edd, type: 3}
+    cardId: 20014
+    level: "\u591A\u4EBA"
+    cardName: "\u5F31\u5C0F\u5996\u7CBE"
+    point: 2
+    cardType: 0
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u4ECE\u5361\u7EC4\u4E2D\u968F\u673A\u6253\u51FA\u4E00\u5F20\u70B9\u6570\u6700\u4F4E\u7684\u5996\u7CBE\u5355\u4F4D\uFF0C\u6D3B\u529B\uFF081\uFF09"
+  - icon: {fileID: 2800000, guid: cc833378deb9a504f94395f56bf5596b, type: 3}
+    cardId: 20015
+    level: "\u591A\u4EBA"
+    cardName: "\u72C2\u5984\u5C0F\u5996\u7CBE"
+    point: 2
+    cardType: 0
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u5996\u7CBE"
+    describe: 
+    ability: "\u5BF9\u5BF9\u65B9\u968F\u673A\u4E00\u4E2A\u70B9\u6570\u6700\u5927\u7684\u5355\u4F4D\u9020\u62101\u70B9\u4F24\u5BB3\uFF0C\u91CD\u590D1+x\u6B21\uFF0Cx\u4E3A\u4E24\u4FA7\u5355\u4F4D\u7684\u6D3B\u529B\u503C\u603B\u548C"
+  - icon: {fileID: 2800000, guid: 586f0656a7e8a294396feeb3acbdbf43, type: 3}
+    cardId: 20016
+    level: "\u591A\u4EBA"
+    cardName: "\u6A31\u77F3"
+    point: 0
+    cardType: 1
+    cardRank: 4
+    sectarian: 0
+    sectarian1: 0
+    cardProperty: 0
+    cardTerritory: 0
+    cardTag: "\u7269\u4F53"
+    describe: 
+    ability: "\u590D\u6D3B\u4E00\u4E2A\u94DC\u8272\u5996\u7CBE\u5355\u4F4D"

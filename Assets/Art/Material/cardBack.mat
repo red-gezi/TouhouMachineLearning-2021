@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: cardBack
+  m_Shader: {fileID: -6465566751694194690, guid: 082c4b55dde2fdc448c8f524278f83e7,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Back:
+        m_Texture: {fileID: 2800000, guid: c527d3fe866b7d449bc9f7d0a312743c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Front:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_450DF2D1_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 2b55e53deabbfbf4c8e3fbddae2f9ee5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7898AFC1_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 6d1484067823cbd4884d5e222bc60b41, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_90D3B247_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b17c68c5dbf3c2a4d8d68a0a76ab353c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_DE5420CB_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 99008b0d71c654a4693fe9346b54dde7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_19AD33D6_Out_0:
+        m_Texture: {fileID: 2800000, guid: 28c06af6885335f4e9f93e478599c713, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_6BEC9B2A_Out_0:
+        m_Texture: {fileID: 2800000, guid: 7a821f67783bc0c4f9de60b4d2f8b436, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_B1EA267A_Out_0:
+        m_Texture: {fileID: 2800000, guid: ccc6edda60f348643a3df62b6e646144, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_5DAD7863: 0.24
+    - Vector1_7B136102: 0
+    - _IsFocus: 0
+    - _IsRed: 0
+    - _IsTemp: 1
+    - _gapWidth: 1.5
+    m_Colors:
+    - _side: {r: 0.41099998, g: 0.25347966, b: 0.195225, a: 0.65882355}
