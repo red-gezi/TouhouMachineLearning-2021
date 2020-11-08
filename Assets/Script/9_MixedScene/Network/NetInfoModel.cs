@@ -29,7 +29,11 @@ namespace Network
             public Dictionary<string, int> cardLibrary { get; set; }
             public int useDeckNum;
             public List<CardDeck> decks;
-            public CardDeck UseDeck => decks[useDeckNum];
+            public CardDeck UseDeck
+            {
+                get => decks[useDeckNum];
+                set => decks[useDeckNum] = value;
+            }
 
             public PlayerInfo(string Name, string Password, List<CardDeck> Deck)
             {
