@@ -30,7 +30,7 @@ namespace Control
         static List<GameObject> libraryCardModels = new List<GameObject>();
 
         static Model.CardDeck tempDeck;
-        static List<int> distinctCardIds => tempDeck.CardIds.Distinct().ToList();
+        static List<int> distinctCardIds => tempDeck.CardIds.Distinct().OrderBy(id => multiModeCards.First(info => info.cardId == id).cardRank).ToList();
 
         //static List<int> distinctCardIds => tempDeck.CardIds.Distinct().ToList();
         // Start is called before the first frame update
@@ -169,12 +169,20 @@ namespace Control
         }
         public void AddCardToDeck(GameObject clickCard)
         {
+            //判断牌库是否有多余牌
             Debug.Log("添加卡牌");
+            //判断卡组是否可添加
             int addCardId = multiModeCards[libraryCardModels.IndexOf(clickCard)].cardId;
-            tempDeck.CardIds.Add(addCardId);
-            
-            //Info.AllPlayerInfo.UserInfo.UseDeck = tempDeck;
-            //Command.Network.NetCommand.UpdateDecks(Info.AllPlayerInfo.UserInfo);
+            var cardInfo = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(addCardId);
+            int sameCardOnDeck = tempDeck.CardIds.Count(id => id == addCardId);
+            if (sameCardOnDeck<1||(sameCardOnDeck < 3&& cardInfo.cardRank== GameEnum.CardRank.Copper))
+            {
+                tempDeck.CardIds.Add(addCardId);
+            }
+            else
+            {
+                Debug.Log("已溢出");
+            }
             InitCardDeck();
         }
         public void RemoveCardFromDeck(GameObject clickCard)
@@ -183,8 +191,6 @@ namespace Control
             Debug.Log("移除卡牌");
             int removeCardId = distinctCardIds[deckCardModels.IndexOf(clickCard)];
             tempDeck.CardIds.Remove(removeCardId);
-            //Info.AllPlayerInfo.UserInfo.UseDeck = tempDeck;
-            //Command.Network.NetCommand.UpdateDecks(Info.AllPlayerInfo.UserInfo);
             InitCardDeck();
         }
     }
