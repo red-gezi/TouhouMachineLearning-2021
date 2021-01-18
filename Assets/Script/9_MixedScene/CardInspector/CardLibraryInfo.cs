@@ -184,7 +184,6 @@ namespace Info
                             [VerticalGroup("Split/Meta")]
                             [LabelText("所属势力"), EnumToggleButtons]
                             public Sectarian sectarian;
-                            public Sectarian sectarian1;
                             [VerticalGroup("Split/Meta")]
                             [LabelText("部署区域"), EnumToggleButtons]
                             public Region cardProperty = Region.All;

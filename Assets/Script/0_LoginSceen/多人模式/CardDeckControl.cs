@@ -6,86 +6,43 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using static Info.CardInspector.CardLibraryInfo.LevelLibrary.SectarianCardLibrary.RankLibrary;
+
 namespace Control
 {
-    public class CardLibraryPageControl : MonoBehaviour
+    public class CardDeckControl : MonoBehaviour
     {
+
         [ShowInInspector]
         static List<CardModelInfo> multiModeCards;
-        public GameObject cardLibraryContent;
-        static GameObject _cardLibraryContent;
 
-        public GameObject cardLibraryCardModel;
-        static GameObject _cardLibraryCardModel;
 
         public GameObject cardDeckContent;
         public GameObject cardDeckCardModel;
         public GameObject cardDeckNameModel;
 
-        static GameObject _cardDeckContent;
-        static GameObject _cardDeckCardModel;
-        static GameObject _cardDeckNameModel;
-
         static List<GameObject> deckCardModels = new List<GameObject>();
-        static List<GameObject> libraryCardModels = new List<GameObject>();
 
         static Model.CardDeck tempDeck;
-        static List<int> distinctCardIds => tempDeck.CardIds.Distinct().OrderBy(id => multiModeCards.First(info => info.cardId == id).cardRank).ToList();
-
-        //static List<int> distinctCardIds => tempDeck.CardIds.Distinct().ToList();
-        // Start is called before the first frame update
+        static List<int> distinctCardIds => tempDeck.CardIds.Distinct().OrderBy(id => Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(id).cardRank).ToList();
         void Awake()
         {
-            _cardLibraryContent = cardLibraryContent;
-            _cardLibraryCardModel = cardLibraryCardModel;
-            _cardDeckContent = cardDeckContent;
-            _cardDeckCardModel = cardDeckCardModel;
-            _cardDeckNameModel = cardDeckNameModel;
-
-            _cardLibraryCardModel.SetActive(false);
-            _cardDeckCardModel.SetActive(false);
-        }
-        public static void InitCardLibrary()
-        {
+            cardDeckCardModel.SetActive(false);
             multiModeCards = Command.CardInspector.CardLibraryCommand.GetLibraryInfo().multiModeCards;
-            var hasCardLibrary = Info.AllPlayerInfo.UserInfo.cardLibrary;
-            multiModeCards.ForEach(info =>
-            {
-                {
-                    var newCardModel = Instantiate(_cardLibraryCardModel, _cardLibraryContent.transform);
-                    libraryCardModels.Add(newCardModel);
-                    string key = info.cardId.ToString();
-                    int cardNum = 0;
-                    if (hasCardLibrary.ContainsKey(key))
-                    {
-                        cardNum = hasCardLibrary[key];
-                    }
-                    newCardModel.transform.localScale = _cardLibraryCardModel.transform.localScale;
-                    Sprite cardTex = Sprite.Create(info.icon, new Rect(0, 0, info.icon.width, info.icon.height), Vector2.zero);
-                    newCardModel.GetComponent<Image>().sprite = cardTex;
-                    newCardModel.transform.GetChild(1).GetComponent<Text>().text = info.cardName;
-                    newCardModel.transform.GetChild(2).GetChild(0).GetChild(0).GetComponent<Text>().text = "X" + cardNum;
-                    newCardModel.GetComponent<Image>().color = new Color(1, 1, 1, cardNum == 0 ? 0.2f : 1);
-                    newCardModel.GetComponent<CardLibraryCardControl>().id = key;
-                    newCardModel.SetActive(true);
-                }
-            });
         }
 
-        public static void InitCardDeck(bool isInitOptions = true)
+        public void InitCardDeck(bool isInitOptions = true)
         {
-            if (tempDeck == null)
-            {
-                tempDeck = Info.AllPlayerInfo.UserInfo.UseDeck.Clone();
-            }
+            tempDeck = Info.AllPlayerInfo.UserInfo.UseDeck.Clone();
             if (isInitOptions)
             {
                 //初始化领袖栏
-                Dropdown dropdown = _cardDeckNameModel.GetComponent<Dropdown>();
+                Dropdown dropdown = cardDeckNameModel.GetComponent<Dropdown>();
                 dropdown.ClearOptions();
                 dropdown.AddOptions(Info.AllPlayerInfo.UserInfo.decks.Select(deck => deck.DeckName).ToList());
+                dropdown.value = Info.AllPlayerInfo.UserInfo.useDeckNum;
+                var cardTexture = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(tempDeck.LeaderId).icon;
+                //cardDeckNameModel.transform.GetChild(0).GetComponent<Image>().mainTexture. material.SetTexture("_Detail", cardTexture)  ;
             }
-            //distinctCardIds = tempDeck.CardIds.Distinct().ToList();
             int deskCardNumber = distinctCardIds.Count();
             int deskModelNumber = deckCardModels.Count;
             deckCardModels.ForEach(model => model.SetActive(false));
@@ -93,7 +50,7 @@ namespace Control
             {
                 for (int i = 0; i < deskCardNumber - deskModelNumber; i++)
                 {
-                    var newCardModel = Instantiate(_cardDeckCardModel, _cardDeckContent.transform);
+                    var newCardModel = Instantiate(cardDeckCardModel, cardDeckContent.transform);
                     deckCardModels.Add(newCardModel);
                 }
             }
@@ -121,14 +78,15 @@ namespace Control
 
                 newCardModel.SetActive(true);
             }
-            //tempDeck.CardIds.ForEach(cardID =>
-            //{
-
-            //});
         }
+        public void refreshDeckName()
+        {
+            //cardDeckNameModel
+        }
+
         public void OnSelectDeckChange()
         {
-            Dropdown dropdown = _cardDeckNameModel.GetComponent<Dropdown>();
+            Dropdown dropdown = cardDeckNameModel.GetComponent<Dropdown>();
             Debug.Log("切换到deck" + dropdown.value);
             Info.AllPlayerInfo.UserInfo.useDeckNum = dropdown.value;
             tempDeck = Info.AllPlayerInfo.UserInfo.UseDeck.Clone();
@@ -167,23 +125,16 @@ namespace Control
             tempDeck = Info.AllPlayerInfo.UserInfo.UseDeck;
             InitCardDeck();
         }
-        public void AddCardToDeck(GameObject clickCard)
+        public void FocusDeckCardOnMenu(GameObject cardModel)
         {
-            //判断牌库是否有多余牌
-            Debug.Log("添加卡牌");
-            //判断卡组是否可添加
-            int addCardId = multiModeCards[libraryCardModels.IndexOf(clickCard)].cardId;
-            var cardInfo = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(addCardId);
-            int sameCardOnDeck = tempDeck.CardIds.Count(id => id == addCardId);
-            if (sameCardOnDeck<1||(sameCardOnDeck < 3&& cardInfo.cardRank== GameEnum.CardRank.Copper))
-            {
-                tempDeck.CardIds.Add(addCardId);
-            }
-            else
-            {
-                Debug.Log("已溢出");
-            }
-            InitCardDeck();
+            int v = deckCardModels.IndexOf(cardModel);
+            Debug.Log(v);
+            int cardID = distinctCardIds[v];
+            Control.GameUI.IntroductionControl.focusCardID = cardID;
+        }
+        public void LostFocusCardOnMenu()
+        {
+            Control.GameUI.IntroductionControl.focusCardID = 0;
         }
         public void RemoveCardFromDeck(GameObject clickCard)
         {

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//控制菜单中的摄像机镜头
 public class CameraViewControl : MonoBehaviour
 {
     public Transform startPosition;

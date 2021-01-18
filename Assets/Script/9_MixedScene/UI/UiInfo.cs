@@ -53,12 +53,9 @@ namespace Info
             public static GameObject CardModel => Instance.CardInstanceModel;
             public static GameObject CardBoard => Instance.CardBoardInstance;
             public static GameObject NoticeBoard => Instance.NoticeBoard_Model;
-            public static Text IntroductionTitle => Instance.CardIntroductionModel.transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<Text>();
-            public static Text IntroductionText => Instance.CardIntroductionModel.transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<Text>();
-            public static Text IntroductionEffect => Instance.CardIntroductionModel.transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<Text>();
+          
 
-            public static RectTransform IntroductionTextBackground => Instance.CardIntroductionModel.transform.GetChild(0).GetChild(0).GetComponent<RectTransform>();
-            public static RectTransform IntroductionEffectBackground => Instance.CardIntroductionModel.transform.GetChild(0).GetChild(1).GetComponent<RectTransform>();
+           
         }
     }
 }

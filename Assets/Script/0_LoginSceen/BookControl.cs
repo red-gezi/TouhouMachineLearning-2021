@@ -7,19 +7,29 @@ using System.Threading.Tasks;
 using Thread;
 using UnityEngine;
 using UnityEngine.UI;
+//书本控制器，需要大幅度修改
 namespace Control
 {
-    partial class BookModelControl : MonoBehaviour
+    partial class BookControl : MonoBehaviour
     {
+        [LabelText("多人模式牌组板控制器")]
+        CardDeckBoardControl cardDeckBoardControl;
+        [LabelText("牌库列表控制器")]
+        CardLibraryControl cardLibraryControl;
+
+
         public GameObject cover_model;
+
+        public static BookControl instance;
+
         public static GameObject cover;
         public GameObject axis_model;
         public static GameObject axis;
         static bool isBookOpen;
-
         static float angle = 0;
-        private void Start()
+        private void Awake()
         {
+            instance = this;
             cover = cover_model;
             axis = axis_model;
             singlePage = _singlePage;
@@ -53,7 +63,7 @@ namespace Control
         public static GameObject collectPage;
         public static GameObject configPage;
         
-        public static void OpenToPage(PageMode pageMode)
+        public  void OpenToPage(PageMode pageMode)
         {
             
             Task.Run(async () =>
@@ -77,11 +87,11 @@ namespace Control
                             break;
                         case PageMode.multiplayer:
                             multiplayerPage.SetActive(true);
+                            Control.CardDeckBoardControl.instance.InitDeck();
                             break;
                         case PageMode.cardLibrary:
                             cardLibraryPage.SetActive(true);
-                            Control.CardLibraryPageControl.InitCardLibrary();
-                            Control.CardLibraryPageControl.InitCardDeck();
+                            cardLibraryControl.InitCardLibrary();
                             break;
                         case PageMode.shrine:
                             shrinePage.SetActive(true);

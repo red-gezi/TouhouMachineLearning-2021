@@ -21,9 +21,9 @@ namespace Control
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 //BookControl.ClosePageAll();
-                BookModelControl.SetCoverOpen(false);
+                BookControl.SetCoverOpen(false);
                 CameraViewControl.MoveToInitView();
-                BookModelControl.OpenToPage(PageMode.none);
+                BookControl.instance.OpenToPage(PageMode.none);
                 loginCanvas.SetActive(true);
             }
         }
@@ -31,9 +31,9 @@ namespace Control
         public void UserLogin()
         {
             Command.Network.NetCommand.Login(UserName.text, Password.text);
-            BookModelControl.SetCoverOpen(true);
+            BookControl.SetCoverOpen(true);
             CameraViewControl.MoveToBookView();
-            BookModelControl.OpenToPage(PageMode.single);
+            BookControl.instance.OpenToPage(PageMode.single);
             loginCanvas.SetActive(false);
         }
 
