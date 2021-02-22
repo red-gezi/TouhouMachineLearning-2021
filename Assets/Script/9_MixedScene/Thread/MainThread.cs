@@ -11,16 +11,21 @@ namespace Thread
         public static void Run(Action RunAction) => TargetAction.Enqueue(RunAction);
         void Update()
         {
-            if (TargetAction.Count > 0)
+            //if (TargetAction.Count > 0)
+            //{
+            //    for (int i = 0; i < TargetAction.Count; i++)
+            //    {
+            //        while (TargetAction.Any())
+            //        {
+            //            TargetAction.Dequeue()();
+            //        }
+            //    }
+            //}
+            while (TargetAction.Any())
             {
-                for (int i = 0; i < TargetAction.Count; i++)
-                {
-                    while (TargetAction.Any())
-                    {
-                        TargetAction.Dequeue()();
-                    }
-                }
+                TargetAction.Dequeue()();
             }
+
         }
     }
 

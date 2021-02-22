@@ -21,7 +21,7 @@ namespace Control
         static List<GameObject> libraryCardModels = new List<GameObject>();
 
         static Model.CardDeck tempDeck;
-        public CardDeckControl cardDeckControl;
+        public CardListControl cardDeckControl;
       
         void Awake()
         {
@@ -31,7 +31,7 @@ namespace Control
         }
         public  void InitCardLibrary()
         {
-            cardDeckControl.InitCardDeck();
+            Command.CardListCommand.InitCardDeck();
             multiModeCards = Command.CardInspector.CardLibraryCommand.GetLibraryInfo().multiModeCards;
             var hasCardLibrary = Info.AllPlayerInfo.UserInfo.cardLibrary;
 
@@ -89,7 +89,7 @@ namespace Control
             {
                 Debug.Log("已溢出");
             }
-            cardDeckControl.InitCardDeck();
+            Command.CardListCommand.InitCardDeck();
         }
         public void FocusLibraryCardOnMenu(GameObject cardModel)
         {

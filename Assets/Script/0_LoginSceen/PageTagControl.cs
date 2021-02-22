@@ -16,5 +16,9 @@ public class PageTagControl : MonoBehaviour
         BackTagText.text = string.Join("\n", tagText.ToCharArray());
         this.targetIndex = targetIndex;
     }
-    private void OnMouseDown() => Control.BookControl.instance.OpenToPage(pageMode);
+    private void OnMouseDown()
+    {
+        Command.BookCommand.OpenToPage(pageMode);
+        //Control.BookControl.instance.OpenToPage(pageMode);
+    }
 }

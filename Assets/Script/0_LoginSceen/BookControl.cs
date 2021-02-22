@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Thread;
 using UnityEngine;
 using UnityEngine.UI;
+using static Info.BookInfo;
 //书本控制器，需要大幅度修改
 namespace Control
 {
@@ -17,16 +18,15 @@ namespace Control
         [LabelText("牌库列表控制器")]
         CardLibraryControl cardLibraryControl;
 
+        [Header("书本模型")]
 
         public GameObject cover_model;
+        public GameObject axis_model;
 
         public static BookControl instance;
-
         public static GameObject cover;
-        public GameObject axis_model;
         public static GameObject axis;
-        static bool isBookOpen;
-        static float angle = 0;
+        
         private void Awake()
         {
             instance = this;
@@ -49,6 +49,7 @@ namespace Control
         }
         [Button]
         public static void SetCoverOpen(bool isOpen) => isBookOpen = isOpen;
+        [Header("页面")]
         public GameObject _singlePage;
         public GameObject _multiplayerPage;
         public GameObject _cardLibraryPage;
@@ -62,10 +63,9 @@ namespace Control
         public static GameObject shrinePage;
         public static GameObject collectPage;
         public static GameObject configPage;
-        
+        [System.Obsolete("废弃")]
         public  void OpenToPage(PageMode pageMode)
         {
-            
             Task.Run(async () =>
             {
                 MainThread.Run(() =>
@@ -83,6 +83,7 @@ namespace Control
                     switch (pageMode)
                     {
                         case PageMode.single:
+                            
                             singlePage.SetActive(true);
                             break;
                         case PageMode.multiplayer:

@@ -18,7 +18,7 @@ namespace Command
     {
         public static class NetCommand
         {
-            static string ip =>Info.AgainstInfo.isHostNetMode? "127.0.0.1:514":"106.15.38.165:514";
+            static string ip => Info.AgainstInfo.isHostNetMode ? "127.0.0.1:514" : "106.15.38.165:514";
             //static string ip = "106.15.38.165:514";
             static WebSocket AsyncConnect = new WebSocket($"ws://{ip}/AsyncInfo");
             public static void Init()
@@ -51,10 +51,13 @@ namespace Command
                         if (result == "1")
                         {
                             Debug.Log("注册成功");
+                            _ = Command.GameUI.NoticeCommand.ShowAsync("注册成功", NotifyBoardMode.Ok);
+
                         }
                         if (result == "-1")
                         {
                             Debug.Log("账号已存在");
+                            _ = Command.GameUI.NoticeCommand.ShowAsync("账号已存在", NotifyBoardMode.Ok);
                         }
                     });
                     Debug.Log("收到回应: " + e.Data);
@@ -66,7 +69,7 @@ namespace Command
             }
             public static void Login(string name, string password)
             {
-                Debug.Log("登录请求");
+                //Debug.Log("登录请求");
                 var client = new WebSocket($"ws://{ip}/Login");
                 client.OnMessage += (sender, e) =>
                 {
@@ -74,20 +77,33 @@ namespace Command
                     {
                         string result = e.Data.ToObject<GeneralCommand<string>>().Datas[0];
                         string playerInfo = e.Data.ToObject<GeneralCommand<string>>().Datas[1];
-                        Debug.Log("登录结果" + result);
+                        //Debug.Log("登录结果" + result);
                         Info.AllPlayerInfo.UserInfo = playerInfo.ToObject<PlayerInfo>();
+                        //_ = Command.GameUI.NoticeCommand.ShowAsync(result);
+                        switch (result)
+                        {
+                            case ("-1"):
+                                _ = Command.GameUI.NoticeCommand.ShowAsync("账号或密码错误", NotifyBoardMode.Ok);
+                                break;
+                            case ("1"):
+                                //成功登陆并初始化书本
+                                Command.BookCommand.Init();
+                                break;
+                            default:
+                                break;
+                        }
                         //SceneManager.LoadSceneAsync(1);
                     });
-                    Debug.Log("收到回应: " + e.Data);
+                    //Debug.Log("收到回应: " + e.Data);
                     client.Close();
                 };
                 client.Connect();
-                Debug.Log("连接完成");
+                //Debug.Log("连接完成");
                 client.Send(new GeneralCommand<string>(name, password).ToJson());
             }
             public static void UpdateDecks(PlayerInfo playerInfo)
             {
-                Debug.Log("更新请求");
+                //Debug.Log("更新请求");
                 var client = new WebSocket($"ws://{ip}/UpdateDecks");
                 client.OnMessage += (sender, e) =>
                 {
@@ -95,7 +111,7 @@ namespace Command
                     {
                         //string result = e.Data.ToObject<GeneralCommand<string>>().Datas[0];
                         //string playerInfo = e.Data.ToObject<GeneralCommand<string>>().Datas[1];
-                        Debug.Log("修改完毕" );
+                        Debug.Log("修改完毕");
                         //Info.AllPlayerInfo.UserInfo = playerInfo.ToObject<PlayerInfo>();
                         //SceneManager.LoadSceneAsync(1);
                     });
@@ -223,7 +239,7 @@ namespace Command
                             case NetAcyncType.RoundStartExchangeOver:
                                 if (Info.AgainstInfo.isPlayer1)
                                 {
-                                    Info.AgainstInfo.isPlayer2RoundStartExchangeOver=true;
+                                    Info.AgainstInfo.isPlayer2RoundStartExchangeOver = true;
                                 }
                                 else
                                 {
@@ -242,7 +258,7 @@ namespace Command
                                 break;
                             case NetAcyncType.Init:
                                 break;
-                            
+
                             default:
                                 break;
                         }
@@ -348,7 +364,7 @@ namespace Command
 
 
                             break;
-                       
+
                         default:
                             {
                                 Debug.Log("异常同步指令");

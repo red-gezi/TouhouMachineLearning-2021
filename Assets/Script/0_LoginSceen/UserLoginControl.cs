@@ -1,4 +1,6 @@
 ﻿using Extension;
+using System.Threading.Tasks;
+using Thread;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -7,7 +9,6 @@ namespace Control
 {
     public class UserLoginControl : MonoBehaviour
     {
-        public GameObject loginCanvas;
         public Text UserName;
         public Text Password;
         void Start()
@@ -21,20 +22,27 @@ namespace Control
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 //BookControl.ClosePageAll();
-                BookControl.SetCoverOpen(false);
-                CameraViewControl.MoveToInitView();
-                BookControl.instance.OpenToPage(PageMode.none);
-                loginCanvas.SetActive(true);
+                _ = Command.GameUI.NoticeCommand.ShowAsync("退出登录",
+                    okAction: async () =>
+                     {
+                         MainThread.Run(() =>
+                         {
+                             BookControl.SetCoverOpen(false);
+                             CameraViewControl.MoveToInitView();
+                             //BookControl.instance.OpenToPage(PageMode.none);
+                             Command.BookCommand.OpenToPage(PageMode.none);
+                             Info.GameUI.UiInfo.loginCanvas.SetActive(true);
+                         });
+                     }
+                    );
+
+                //
             }
         }
         public void UserRegister() => Command.Network.NetCommand.Register(UserName.text, Password.text);
         public void UserLogin()
         {
             Command.Network.NetCommand.Login(UserName.text, Password.text);
-            BookControl.SetCoverOpen(true);
-            CameraViewControl.MoveToBookView();
-            BookControl.instance.OpenToPage(PageMode.single);
-            loginCanvas.SetActive(false);
         }
 
         private void OnApplicationQuit() => Command.Network.NetCommand.Dispose();
