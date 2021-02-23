@@ -26,8 +26,8 @@
 
 ## 关于作者
 
-+ 项目发起人及程序编写：<a href="https://github.com/red-gezi">格子</a>
-其余待补充
++ 项目发起人及游戏框架编写：<a href="https://github.com/red-gezi">格子</a>
+其余待补充（快注册个github账号我好补上连接）
 
 ## 玩家社区
 + qq群：[946661538](https://jq.qq.com/?_wv=1027&k=oVVqfQpd)
