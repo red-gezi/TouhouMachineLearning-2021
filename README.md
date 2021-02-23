@@ -1,11 +1,17 @@
 # 东方格致录~TouhouMachineLearningSummary
 
 
+## 相关项目
++ [服务器(暂不开放)](https://github.com/red-gezi/TouHouCardServer)
++ [更新启动器](https://github.com/red-gezi/GameUpadteTool)
+
 
 ## 编译环境与开发软件
 
 + 服务端项目：.NET Core
 + 客户端项目：Unity 2019.4.3f1
+
+## 框架介绍
 
 ## 欢迎贡献
 
@@ -14,13 +20,13 @@
 ### 贡献步骤
 
 1. 安装上述编译环境与开发软件。
-2. [Fork本项目](https://github.com/LegacyGwent/LegacyGwent/fork)
+2. [Fork本项目](https://github.com/red-gezi/TouhouMachineLearning-2021/fork)
 3. 将自己的fork克隆到本地并创建分支和空白提交
 
 
 ## 关于作者
 
-+ 项目发起人及程序编写：<a href="https://github.com/red_gezi">格子</a>
++ 项目发起人及程序编写：<a href="https://github.com/red-gezi">格子</a>
 其余待补充
 
 ## 玩家社区
