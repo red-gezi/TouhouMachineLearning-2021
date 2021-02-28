@@ -71,7 +71,7 @@ namespace Control
             }
             public void ChangeIntroduction(int cardID)
             {
-                var cardInfo = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(cardID);
+                var cardInfo = Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(cardID);
                 string Title = cardInfo.cardName;
                 string Text = cardInfo.ability;
                 string Effect = "";

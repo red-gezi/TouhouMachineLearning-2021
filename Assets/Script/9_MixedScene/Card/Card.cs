@@ -69,11 +69,11 @@ namespace CardModel
         public int twoSideVitality => (LeftCard == null|| LeftCard[CardState.Seal] ? 0 : LeftCard[CardField.Vitality]) + (RightCard == null || RightCard[CardState.Seal] ? 0 : RightCard[CardField.Vitality]);
 
         public Text PointText => transform.GetChild(0).GetChild(0).GetComponent<Text>();
-        public string CardName => Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(CardId).cardName;
+        public string CardName => Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(CardId).cardName;
         //卡牌描述中可能会发生变化的值
         public int replaceDescribeValue = 0;
         [ShowInInspector]
-        public string CardIntroduction => Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(CardId).ability.Replace("{x}", replaceDescribeValue.ToString());
+        public string CardIntroduction => Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(CardId).ability.Replace("{x}", replaceDescribeValue.ToString());
 
 
         public Dictionary<TriggerTime, Dictionary<TriggerType, List<Func<TriggerInfo, Task>>>> cardAbility = new Dictionary<TriggerTime, Dictionary<TriggerType, List<Func<TriggerInfo, Task>>>>();

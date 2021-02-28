@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿using Model;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -51,7 +51,7 @@ namespace Control
                 deckModels[i].SetActive(true);
                 //修正卡组
                 deckModels[i].transform.GetChild(1).GetComponent<Text>().text = decks[i].DeckName;
-                var cardInfo = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(decks[i].LeaderId);
+                var cardInfo = Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(decks[i].LeaderId);
                 Sprite cardTex = Sprite.Create(cardInfo.icon, new Rect(0, 0, cardInfo.icon.width, cardInfo.icon.height), Vector2.zero);
                 deckModels[i].transform.GetComponent<Image>().sprite = cardTex;
             }
@@ -121,7 +121,43 @@ namespace Control
         }
         public void StartBattle()
         {
-            _=Command.GameUI.NoticeCommand.ShowAsync("等待匹配");
+            if (true)
+            {
+                _ = Command.GameUI.NoticeCommand.ShowAsync("等待匹配");
+                Command.Network.NetCommand.JoinRoom();
+            }
+            else
+            {
+                BattleConfigure.Init();
+                BattleConfigure.SetPvPMode(false);
+                BattleConfigure.SetTurnFirst(FirstTurn.PlayerFirst);
+                BattleConfigure.SetPlayerDeck(
+                    new CardDeck("gezi", 10001, new List<int>
+                        {
+                             10001,10001,10001,10001,
+                             10001,10001,10001,10001,10001,10001,
+                             10001,10001,10001,
+                             10001,10001,10001,
+                             10001,10001,10001,
+                             10001,10001,10001,
+                             10001,10001,10001,
+                        })
+                    );
+                BattleConfigure.SetOpponentDeck(
+                   new CardDeck("npc", 10002, new List<int>
+                       {
+                             10001,10001,10001,10001,
+                             10001,10001,10001,10001,10001,10001,
+                             10001,10001,10001,
+                             10001,10001,10001,
+                             10001,10001,10001,
+                             10001,10001,10001,
+                             10001,10001,10001,
+                       })
+                   );
+                BattleConfigure.Start();
+            }
+           
         }
     }
 }

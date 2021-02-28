@@ -26,8 +26,8 @@ namespace Info
         //获得指定卡组的去重并按品质排序后的列表
         public static List<int> distinctCardIds => tempDeck.CardIds
             .Distinct()
-            .OrderBy(id => Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(id).cardRank)
-            .ThenByDescending(id => Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(id).point)
+            .OrderBy(id => Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(id).cardRank)
+            .ThenByDescending(id => Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(id).point)
             .ToList();
 
         private void Awake()

@@ -1,6 +1,7 @@
 ﻿using CardModel;
 using CardSpace;
 using GameEnum;
+using Model;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -12,6 +13,11 @@ namespace Info
     /// </summary>
     public static class AgainstInfo
     {
+        //双方用户信息
+        public static string userName;
+        public static string opponentName;
+        public static CardDeck userDeck;
+        public static CardDeck opponentDeck;
         //网络同步信息
         public static bool isHostNetMode=true;//本地测试模式
         public static Card TargetCard;

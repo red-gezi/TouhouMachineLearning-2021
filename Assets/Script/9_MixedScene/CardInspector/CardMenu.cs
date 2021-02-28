@@ -9,13 +9,15 @@ using static Info.CardInspector.CardLibraryInfo.LevelLibrary;
 using static Info.CardInspector.CardLibraryInfo.LevelLibrary.SectarianCardLibrary;
 using static Info.CardInspector.CardLibraryInfo.LevelLibrary.SectarianCardLibrary.RankLibrary;
 using System.Linq;
-using Command.CardInspector;
+using Command.CardLibrary;
 
 namespace CardInspector
 {
     public class CardMenu : OdinMenuEditorWindow
     {
+
         static CardMenu instance;
+
         [MenuItem("Tools/卡组编辑器")]
         private static void OpenWindow()
         {

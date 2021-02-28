@@ -1,4 +1,4 @@
-using CardInspector;
+//using CardInspector;
 using Extension;
 using GameEnum;
 using Info.CardInspector;
@@ -16,7 +16,7 @@ using static Info.CardInspector.CardLibraryInfo.LevelLibrary.SectarianCardLibrar
 
 namespace Command
 {
-    namespace CardInspector
+    namespace CardLibrary
     {
         public static class CardLibraryCommand
         {
@@ -125,9 +125,9 @@ namespace Command
 
             public static void Refresh()
             {
-                #if UNITY_EDITOR    
-                CardMenu.UpdateInspector();
-                #endif
+#if UNITY_EDITOR
+                CardInspector.CardMenu.UpdateInspector();
+#endif
             }
 
             private static T GetCsvData<T>(int i, string item)
@@ -140,7 +140,7 @@ namespace Command
                 }
                 catch (Exception e)
                 {
-                    Debug.Log(item+i+"³ö´í");
+                    Debug.Log(item + i + "³ö´í");
                     Debug.Log(e.ToString());
                     return default;
                 }
@@ -163,7 +163,7 @@ namespace Command
                     }
                 }
 #if UNITY_EDITOR
-                CardMenu.UpdateInspector();
+                CardInspector.CardMenu.UpdateInspector();
 #endif
             }
 

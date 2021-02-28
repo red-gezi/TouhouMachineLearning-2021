@@ -4,3 +4,4 @@ Library/ArtifactDB-lock
 Assets/Plugins/Sirenix
 Assets/Plugins/Sirenix/*
 .vs/TouhouMachineLearning2021/v16/Server/sqlite3/db.lock
+Temp/*

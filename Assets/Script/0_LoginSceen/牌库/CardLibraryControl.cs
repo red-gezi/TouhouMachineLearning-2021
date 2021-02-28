@@ -32,7 +32,7 @@ namespace Control
         public  void InitCardLibrary()
         {
             Command.CardListCommand.InitCardDeck();
-            multiModeCards = Command.CardInspector.CardLibraryCommand.GetLibraryInfo().multiModeCards;
+            multiModeCards = Command.CardLibrary.CardLibraryCommand.GetLibraryInfo().multiModeCards;
             var hasCardLibrary = Info.AllPlayerInfo.UserInfo.cardLibrary;
 
             //牌库卡牌列表
@@ -79,7 +79,7 @@ namespace Control
             Debug.Log("添加卡牌");
             //判断卡组是否可添加
             int addCardId = multiModeCards[libraryCardModels.IndexOf(clickCard)].cardId;
-            var cardInfo = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(addCardId);
+            var cardInfo = Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(addCardId);
             int sameCardCountOnDeck = tempDeck.CardIds.Count(id => id == addCardId);
             if (sameCardCountOnDeck < 1 || (sameCardCountOnDeck < 3 && cardInfo.cardRank == GameEnum.CardRank.Copper))
             {

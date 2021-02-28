@@ -1,15 +1,14 @@
 using Extension;
 using GameEnum;
-using Network;
 using System.Collections.Generic;
 using System.Linq;
 using Thread;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using static Network.NetInfoModel;
 using WebSocketSharp;
 using System.Threading.Tasks;
 using CardModel;
+using Model;
 
 namespace Command
 {
@@ -136,13 +135,18 @@ namespace Command
                     Debug.Log("是否玩家1？：" + Info.AgainstInfo.isPlayer1);
                     Info.AgainstInfo.isPVP = true;
                     //Info.AgainstInfo.isMyTurn = Info.AgainstInfo.isPlayer1;
-                    Info.AllPlayerInfo.UserInfo = ReceiveInfo[2].ToString().ToObject<PlayerInfo>();
-                    Info.AllPlayerInfo.OpponentInfo = ReceiveInfo[3].ToString().ToObject<PlayerInfo>();
+                    PlayerInfo userInfo = ReceiveInfo[2].ToString().ToObject<PlayerInfo>();
+                    PlayerInfo opponentInfo = ReceiveInfo[3].ToString().ToObject<PlayerInfo>();
                     Debug.Log("收到回应: " + e.Data);
                     //client.Close();
                     MainThread.Run(() =>
                     {
-                        SceneManager.LoadSceneAsync(2);
+                        BattleConfigure.Init();
+                        BattleConfigure.SetPlayerDeck(userInfo.UseDeck);
+                        BattleConfigure.SetOpponentDeck(opponentInfo.UseDeck);
+                        BattleConfigure.SetPvPMode(true);
+                        BattleConfigure.Start();
+                        //创建联机连接
                         InitAsyncConnection();
                     });
                 };

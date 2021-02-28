@@ -1,4 +1,4 @@
-﻿using Command.CardInspector;
+﻿using Command.CardLibrary;
 using GameEnum;
 using Sirenix.OdinInspector;
 using System;

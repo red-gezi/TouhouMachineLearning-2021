@@ -57,7 +57,7 @@ namespace Control
             }
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                _ = Command.StateCommand.Surrender();
+                _ = Command.GameUI.NoticeCommand.ShowAsync("确认投降？", okAction: Command.StateCommand.Surrender);
             }
         }
         private void MouseEvent()

@@ -19,7 +19,7 @@ namespace Command
     {
         public static async Task BattleStart()
         {
-            AgainstInfo.isMyTurn = AgainstInfo.isPlayer1;
+            //AgainstInfo.isMyTurn = AgainstInfo.isPlayer1;
             AgainstInfo.cardSet = new CardSet();
             Info.StateInfo.TaskManager = new System.Threading.CancellationTokenSource();
             MainThread.Run(() =>
@@ -32,33 +32,33 @@ namespace Command
                 AgainstInfo.cardSet.CardList = null;
             });
             await Task.Delay(500);
-            if (AgainstInfo.isPVE)
-            {
-                AllPlayerInfo.UserInfo = new NetInfoModel.PlayerInfo(
-                    "gezi", "yaya",
-                    new List<CardDeck>
-                    {
-                        new CardDeck("gezi", 10001, new List<int>
-                        {
-                            //10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,
-                             10015, 10016, 10012, 10013, 10014, 10015, 10016,10002, 10008, 10004, 10005, 10007, 10006,10008, 10004,  10012, 10010, 10011, 10012, 10014, 10007,10006, 10016,  10008, 10014
-                            //10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016
-                            //1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004
+            //if (AgainstInfo.isPVE)
+            //{
+            //    AllPlayerInfo.UserInfo = new NetInfoModel.PlayerInfo(
+            //        "gezi", "yaya",
+            //        new List<CardDeck>
+            //        {
+            //            new CardDeck("gezi", 10001, new List<int>
+            //            {
+            //                //10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,
+            //                 10015, 10016, 10012, 10013, 10014, 10015, 10016,10002, 10008, 10004, 10005, 10007, 10006,10008, 10004,  10012, 10010, 10011, 10012, 10014, 10007,10006, 10016,  10008, 10014
+            //                //10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016
+            //                //1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004, 1004
 
-                        })
-                    });
-                AllPlayerInfo.OpponentInfo = new NetInfoModel.PlayerInfo(
-                    "gezi", "yaya",
-                    new List<CardDeck>
-                    {
-                        new CardDeck("gezi", 10001, new List<int>
-                        {
-                            //10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,
-                             10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016
-                            //10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016
-                        })
-                    });
-            }
+            //            })
+            //        });
+            //    AllPlayerInfo.OpponentInfo = new NetInfoModel.PlayerInfo(
+            //        "gezi", "yaya",
+            //        new List<CardDeck>
+            //        {
+            //            new CardDeck("gezi", 10001, new List<int>
+            //            {
+            //                //10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,10002,
+            //                 10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016
+            //                //10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016, 10012, 10013, 10014, 10015, 10016
+            //            })
+            //        });
+            //}
             RowCommand.SetRegionSelectable(RegionTypes.None);
             //Debug.LogError("初始双方信息");
             await Task.Run(async () =>
@@ -69,29 +69,29 @@ namespace Command
                     Debug.Log("对战开始".TransUiText());
                     GameUI.UiCommand.SetNoticeBoardTitle("对战开始".TransUiText());
                     await GameUI.UiCommand.NoticeBoardShow();
+                    //CardDeck Deck = AllPlayerInfo.UserInfo.UseDeck;
+
                     //初始化我方领袖卡
-                    Card MyLeaderCard = await CardCommand.CreatCard(AllPlayerInfo.UserInfo.UseDeck.LeaderId);
+                    Card MyLeaderCard = await CardCommand.CreatCard(Info.AgainstInfo.userDeck.LeaderId);
                     AgainstInfo.cardSet[Orientation.Down][RegionTypes.Leader].Add(MyLeaderCard);
                     MyLeaderCard.SetCardSeeAble(true);
                     //初始化敌方领袖卡
-                    Card OpLeaderCard = await CardCommand.CreatCard(AllPlayerInfo.OpponentInfo.UseDeck.LeaderId);
+                    Card OpLeaderCard = await CardCommand.CreatCard(Info.AgainstInfo.opponentDeck.LeaderId);
                     AgainstInfo.cardSet[Orientation.Up][RegionTypes.Leader].Add(OpLeaderCard);
                     OpLeaderCard.SetCardSeeAble(true);
                     //初始双方化牌组
-                    CardDeck Deck = AllPlayerInfo.UserInfo.UseDeck;
                     //Debug.LogError("初始双方化牌组");
 
-                    for (int i = 0; i < Deck.CardIds.Count; i++)
+                    for (int i = 0; i < Info.AgainstInfo.userDeck.CardIds.Count; i++)
                     {
-                        Card NewCard = await CardCommand.CreatCard(Deck.CardIds[i]);
+                        Card NewCard = await CardCommand.CreatCard(Info.AgainstInfo.userDeck.CardIds[i]);
                         CardSet cardSet = AgainstInfo.cardSet[Orientation.Down][RegionTypes.Deck];
                         cardSet.Add(NewCard);
                     }
-                    Deck = AllPlayerInfo.OpponentInfo.UseDeck;
 
-                    for (int i = 0; i < Deck.CardIds.Count; i++)
+                    for (int i = 0; i < Info.AgainstInfo.opponentDeck.CardIds.Count; i++)
                     {
-                        Card NewCard = await CardCommand.CreatCard(Deck.CardIds[i]);
+                        Card NewCard = await CardCommand.CreatCard(Info.AgainstInfo.opponentDeck.CardIds[i]);
                         AgainstInfo.cardSet[Orientation.Up][RegionTypes.Deck].Add(NewCard);
                     }
                     await Task.Delay(000);
@@ -114,7 +114,7 @@ namespace Command
                 {
                     Debug.Log("释放线程资源");
                     StateInfo.TaskManager.Cancel();
-                    SceneManager.LoadSceneAsync(1);
+                    SceneManager.LoadSceneAsync(0);
                 });
             });
         }

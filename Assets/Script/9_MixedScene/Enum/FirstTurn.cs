@@ -1,0 +1,1 @@
+﻿public enum FirstTurn { PlayerFirst, OpponentFirst, Random }

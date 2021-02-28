@@ -18,7 +18,15 @@ namespace Command
                 dropdown.ClearOptions();
                 dropdown.AddOptions(Info.AllPlayerInfo.UserInfo.decks.Select(deck => deck.DeckName).ToList());
                 dropdown.value = Info.AllPlayerInfo.UserInfo.useDeckNum;
-                var cardTexture = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(tempDeck.LeaderId).icon;
+                var cardTexture = Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(tempDeck.LeaderId).icon;
+                deckCardModels.ForEach(model =>
+                {
+                    if (model!=null)
+                    {
+                        Destroy(model);
+                    }
+                });
+                deckCardModels.Clear();
                 //cardDeckNameModel.transform.GetChild(0).GetComponent<Image>().mainTexture. material.SetTexture("_Detail", cardTexture)  ;
             }
             int deskCardNumber = distinctCardIds.Count();
@@ -59,7 +67,7 @@ namespace Command
                 //品质
                 currentCardModel.transform.GetChild(2).GetComponent<Image>().color = RankColor;
                 //点数
-                int point = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(cardID).point;
+                int point = Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(cardID).point;
                 currentCardModel.transform.GetChild(2).GetChild(0).GetComponent<Text>().text = point == 0?" ": point+"";
                 //数量
                 currentCardModel.transform.GetChild(3).GetChild(0).GetComponent<Text>().text = "x"+tempDeck.CardIds.Count(id => id == cardID);

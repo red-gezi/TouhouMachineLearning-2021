@@ -12,7 +12,7 @@ namespace Control
         void Awake()
         {
             cardDeckCardModel.SetActive(false);
-            multiModeCards = Command.CardInspector.CardLibraryCommand.GetLibraryInfo().multiModeCards;
+            multiModeCards = Command.CardLibrary.CardLibraryCommand.GetLibraryInfo().multiModeCards;
         }
 
         public void refreshDeckName()

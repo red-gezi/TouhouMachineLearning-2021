@@ -35,7 +35,7 @@ namespace Command
                     List<Card> Cards = Info.AgainstInfo.cardBoardList;
                     for (int i = 0; i < Cards.Count; i++)
                     {
-                        var CardStandardInfo = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(Cards[i].CardId);
+                        var CardStandardInfo = Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(Cards[i].CardId);
                         GameObject NewCard = GameObject.Instantiate(Info.GameUI.UiInfo.CardModel);
 
                         NewCard.transform.GetChild(0).GetChild(0).GetComponent<Text>().text = CardStandardInfo.ability;
@@ -69,7 +69,7 @@ namespace Command
                     List<int> CardIds = Info.AgainstInfo.cardBoardIDList;
                     for (int i = 0; i < CardIds.Count; i++)
                     {
-                        var CardStandardInfo = Command.CardInspector.CardLibraryCommand.GetCardStandardInfo(CardIds[i]);
+                        var CardStandardInfo = Command.CardLibrary.CardLibraryCommand.GetCardStandardInfo(CardIds[i]);
                         GameObject NewCard = GameObject.Instantiate(Info.GameUI.UiInfo.CardModel);
                         NewCard.transform.GetChild(0).GetChild(0).GetComponent<Text>().text = CardStandardInfo.describe;
 

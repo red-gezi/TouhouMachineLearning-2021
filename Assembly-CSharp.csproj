@@ -195,7 +195,8 @@
     <Compile Include="Assets\Live2D\Cubism\Samples\OriginalWorkflow\Motion\CubismMotionPreview.cs" />
     <Compile Include="Assets\Live2D\Cubism\Samples\Raycasting\RaycastHitDisplay.cs" />
     <Compile Include="Assets\Script\-1_Other\Danmu.cs" />
-    <Compile Include="Assets\Script\-1_Other\扩展编辑器\EditorExtension.cs" />
+    <Compile Include="Assets\Script\-1_Other\EditorExtension\EditorExtension.cs" />
+    <Compile Include="Assets\Script\0_LoginSceen\BattleConfigure.cs" />
     <Compile Include="Assets\Script\0_LoginSceen\BookCommand.cs" />
     <Compile Include="Assets\Script\0_LoginSceen\BookControl.cs" />
     <Compile Include="Assets\Script\0_LoginSceen\BookInfo.cs" />
@@ -284,6 +285,7 @@
     <Compile Include="Assets\Script\9_MixedScene\Enum\CardState.cs" />
     <Compile Include="Assets\Script\9_MixedScene\Enum\CardTag.cs" />
     <Compile Include="Assets\Script\9_MixedScene\Enum\CardType.cs" />
+    <Compile Include="Assets\Script\9_MixedScene\Enum\FirstTurn.cs" />
     <Compile Include="Assets\Script\9_MixedScene\Enum\Language.cs" />
     <Compile Include="Assets\Script\9_MixedScene\Enum\NetAcyncType.cs" />
     <Compile Include="Assets\Script\9_MixedScene\Enum\Orientation.cs" />

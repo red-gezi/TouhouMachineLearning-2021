@@ -1,6 +1,6 @@
 ﻿using CardModel;
 using CardSpace;
-using Command.CardInspector;
+using Command.CardLibrary;
 using Control;
 using Extension;
 using GameEnum;
@@ -47,10 +47,6 @@ namespace Command
                     case CardRank.Copper: card.GetComponent<Renderer>().material.SetColor("_side", new Color(1, 0.42f, 0.37f)); break;
                     default: break;
                 }
-                //if (card.cardType== CardType.Special)
-                //{
-                //    card.transform.GetChild(0).GetChild(0).get
-                //}
                 card.Init();
                 NewCardScript = card;
             });
