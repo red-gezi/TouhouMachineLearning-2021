@@ -1,5 +1,6 @@
 ﻿public enum NotifyBoardMode
 {
     Ok,
-    Ok_Cancel
+    Ok_Cancel,
+    Cancel
 }

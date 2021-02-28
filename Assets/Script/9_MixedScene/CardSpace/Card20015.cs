@@ -21,6 +21,17 @@ namespace CardSpace
                     await GameSystem.TransSystem.DeployCard(TriggerInfo.Build(this,this));
                 }
             };
+            cardAbility[TriggerTime.When][TriggerType.Deploy] = new List<Func<TriggerInfo, Task>>()
+            {
+                async (triggerInfo) =>
+                {
+                    for (int i = 0; i < twoSideVitality+1; i++)
+                    {
+                        await GameSystem.SelectSystem.SelectUnite(this,cardSet[Orientation.Op][RegionTypes.Battle][CardRank.Copper,CardRank.Silver][CardFeature.Largest].CardList,1,true);
+                        await GameSystem.PointSystem.Hurt(new TriggerInfo(this,SelectUnits,1));
+                    }
+                }
+            };
         }
     }
 }

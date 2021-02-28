@@ -145,6 +145,7 @@ namespace Command
                         BattleConfigure.SetPlayerDeck(userInfo.UseDeck);
                         BattleConfigure.SetOpponentDeck(opponentInfo.UseDeck);
                         BattleConfigure.SetPvPMode(true);
+                        BattleConfigure.SetTurnFirst(FirstTurn.Random);
                         BattleConfigure.Start();
                         //创建联机连接
                         InitAsyncConnection();
@@ -154,6 +155,20 @@ namespace Command
                 Debug.Log("连接完成");
                 client.Send(Info.AllPlayerInfo.UserInfo.ToJson());
                 Debug.Log(Info.AllPlayerInfo.UserInfo.ToJson());
+                Debug.Log("发送完毕");
+            }
+            public static void LeaveRoom()
+            {
+                Debug.Log("登录请求");
+                var client = new WebSocket($"ws://{ip}/Leave");
+                client.OnMessage += (sender, e) =>
+                {
+                    Debug.LogError("已离开房间" + e.Data);
+                };
+                client.Connect();
+                Debug.Log("连接完成");
+                client.Send(Info.AgainstInfo.RoomID.ToJson());
+                Debug.Log(Info.AgainstInfo.RoomID.ToJson());
                 Debug.Log("发送完毕");
             }
             //初始化接收响应

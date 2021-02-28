@@ -69,6 +69,11 @@ namespace Command
                             okButton.localPosition = new Vector3(-130, -100, 0);
                             //cancelButton.localPosition = new Vector3(130, -100, 0);
                             break;
+                        case NotifyBoardMode.Cancel:
+                            okButton.gameObject.SetActive(false);
+                            cancelButton.gameObject.SetActive(true);
+                            cancelButton.localPosition = new Vector3(-130, -100, 0);
+                            break;
                         default:
                             break;
                     }
@@ -114,6 +119,6 @@ namespace Command
             }
         }
     }
-    
+
 
 }

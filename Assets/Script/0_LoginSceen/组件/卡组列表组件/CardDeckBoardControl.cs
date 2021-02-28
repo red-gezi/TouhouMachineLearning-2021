@@ -123,7 +123,7 @@ namespace Control
         {
             if (true)
             {
-                _ = Command.GameUI.NoticeCommand.ShowAsync("等待匹配");
+                _ = Command.GameUI.NoticeCommand.ShowAsync("等待匹配", NotifyBoardMode.Cancel);
                 Command.Network.NetCommand.JoinRoom();
             }
             else

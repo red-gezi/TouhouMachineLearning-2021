@@ -35,23 +35,8 @@ namespace CardSpace
                         SelectLocation=SelectUnits[0].location.y;
                     }
                     await GameSystem.TransSystem.DeployCard(TriggerInfo.Build(this,SelectUnits));
-                },
-                //async (triggerInfo) =>
-                //{
-                //    Debug.Log("10002卡牌效果：重新部署单位"+SelectUnits.Count);
-                //    if (SelectUnits.Any())
-                //    {
-                //        SelectRegion=Info.RowsInfo.GetSingleRowInfoById(SelectUnits[0].location.x);
-                //        SelectLocation=SelectUnits[0].location.y;
-                //    }
-                //    Debug.LogError("10002选择完毕");
-                //    await GameSystem.TransSystem.DeployCard(TriggerInfo.Build(this,SelectUnits));
-                //    Debug.LogError("10002部署效果触发完毕！");
-                //}
+                }
             };
         }
     }
 }
-//await Task.Delay(300);
-////EffectCommand.TheWorldPlay(this);
-//await Task.Delay(2000);
