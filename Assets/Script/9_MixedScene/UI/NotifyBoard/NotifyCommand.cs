@@ -15,11 +15,11 @@ namespace Command
             string language = "Ch";
             static Func<Task> okAction;
             static Func<Task> cancelAction;
-            static Image image = Info.GameUI.UiInfo.Notice.transform.GetComponent<Image>();
-            static Transform noticeTransform = Info.GameUI.UiInfo.Notice.transform;
-            static Text noticeText = noticeTransform.GetChild(0).GetComponent<Text>();
-            static Transform okButton = noticeTransform.GetChild(1);
-            static Transform cancelButton = noticeTransform.GetChild(2);
+            static Image image => Info.GameUI.UiInfo.Notice.transform.GetComponent<Image>();
+            static Transform noticeTransform => Info.GameUI.UiInfo.Notice.transform;
+            static Text noticeText => noticeTransform.GetChild(0).GetComponent<Text>();
+            static Transform okButton => noticeTransform.GetChild(1);
+            static Transform cancelButton => noticeTransform.GetChild(2);
             static bool isShowOver = true;
             public static async Task OkAsync()
             {
@@ -51,7 +51,7 @@ namespace Command
                 NoticeCommand.okAction = okAction;
                 NoticeCommand.cancelAction = cancelAction;
                 Color color = image.color;
-                MainThread.Run(() =>
+                MainThread.UiRun(() =>
                 {
                     noticeText.text = text;
                     Info.GameUI.UiInfo.Notice.SetActive(true);
@@ -72,7 +72,7 @@ namespace Command
                         case NotifyBoardMode.Cancel:
                             okButton.gameObject.SetActive(false);
                             cancelButton.gameObject.SetActive(true);
-                            cancelButton.localPosition = new Vector3(-130, -100, 0);
+                            cancelButton.localPosition = new Vector3(0, -100, 0);
                             break;
                         default:
                             break;
@@ -83,7 +83,7 @@ namespace Command
                 {
                     for (float i = 0.5f; i < 1; i += 0.03f)
                     {
-                        MainThread.Run(() =>
+                        MainThread.UiRun(() =>
                         {
                             noticeTransform.localScale = new Vector3(1, i, 1);
                             image.color = color.SetA(i);

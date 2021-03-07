@@ -31,7 +31,7 @@ namespace CardSpace
                 {
                     if (!this[CardState.Seal])
                     {
-                        List<Card> targetCardList= cardSet[Orientation.My][RegionTypes.Deck].CardList.Where(card=>card.CardId==10007||card.CardId==10008).ToList();
+                        List<Card> targetCardList= cardSet[Orientation.My][RegionTypes.Deck].CardList.Where(card=>card.CardId==20007||card.CardId==20008).ToList();
                         await GameSystem.TransSystem.SummonCard(new TriggerInfo(this,targetCardList));
                     }
                 }

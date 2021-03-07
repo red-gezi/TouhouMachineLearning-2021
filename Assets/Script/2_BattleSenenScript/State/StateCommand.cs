@@ -115,6 +115,7 @@ namespace Command
                     Debug.Log("释放线程资源");
                     StateInfo.TaskManager.Cancel();
                     SceneManager.LoadSceneAsync(0);
+                    MainThread.Init();
                 });
             });
         }

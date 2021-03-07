@@ -5,6 +5,7 @@ using UnityEngine;
 using System;
 using UnityEngine.SceneManagement;
 using Model;
+using Thread;
 
 public partial class BattleConfigure
 {
@@ -36,6 +37,7 @@ public partial class BattleConfigure
             SetOpponentDeck(defaultDeck);
         }
         SceneManager.LoadSceneAsync(1);
+        MainThread.Init();
     }
     //设置我方卡组
     public static void SetPlayerDeck(CardDeck playerDeck) => Info.AgainstInfo.userDeck = playerDeck;

@@ -29,7 +29,7 @@ namespace CardSpace
             {
                 async (triggerInfo) =>
                 {
-                    List<Card> targetCardList= cardSet[Orientation.My][RegionTypes.Deck].CardList.Where(card=>card.CardId==10006||card.CardId==10008).ToList();
+                    List<Card> targetCardList= cardSet[Orientation.My][RegionTypes.Deck].CardList.Where(card=>card.CardId==20006||card.CardId==20008).ToList();
                     await GameSystem.TransSystem.SummonCard(new TriggerInfo(this,targetCardList));
                 }
             };

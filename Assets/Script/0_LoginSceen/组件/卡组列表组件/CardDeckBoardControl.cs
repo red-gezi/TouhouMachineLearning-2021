@@ -124,6 +124,7 @@ namespace Control
             if (true)
             {
                 _ = Command.GameUI.NoticeCommand.ShowAsync("等待匹配", NotifyBoardMode.Cancel);
+                Debug.Log("等待中");
                 Command.Network.NetCommand.JoinRoom();
             }
             else

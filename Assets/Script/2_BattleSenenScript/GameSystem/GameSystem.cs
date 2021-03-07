@@ -32,9 +32,17 @@ namespace GameSystem
         public static async Task DrawCard(TriggerInfo triggerInfo) => await TriggerLogic(triggerInfo[TriggerType.Draw]);
         public static async Task PlayCard(TriggerInfo triggerInfo, bool isAnsy = true)
         {
-            await Command.CardCommand.PlayCard(triggerInfo.targetCard, isAnsy);
-            await TriggerLogic(triggerInfo[TriggerType.Play]);
+            if (triggerInfo.targetCard!=null)
+            {
+                await Command.CardCommand.PlayCard(triggerInfo.targetCard, isAnsy);
+                await TriggerLogic(triggerInfo[TriggerType.Play]);
+            }
         }
+        /// <summary>
+        /// 回收卡牌
+        /// </summary>
+        /// <param name="triggerInfo"></param>
+        /// <returns></returns>
         public static async Task RecycleCard(TriggerInfo triggerInfo)
         {
 
