@@ -12,7 +12,7 @@
 + 客户端项目：Unity 2019.4.14f1c1 (64-bit)
 
 ## 框架介绍
-
++ [游戏代码与框架介绍](https://github.com/red-gezi/TouhouMachineLearning-2021/tree/master/Assets/Script)
 ## 欢迎贡献
 
 目前版本还在设计和编写底层架构中。欢迎有时间和精力的贡献者的fork，并向我们提交pull request。我们将采纳任何有建设性改进的优质的pull request。活跃的贡献者将会加入作者名单（快自己在readme加再提pr）。
