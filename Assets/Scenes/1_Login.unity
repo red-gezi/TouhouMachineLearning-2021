@@ -1480,7 +1480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &122846527
 Transform:
   m_ObjectHideFlags: 0
@@ -1579,7 +1579,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: SaveDeck
         m_Mode: 1
         m_Arguments:
@@ -2276,7 +2276,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: SaveDeck
         m_Mode: 1
         m_Arguments:
@@ -2694,6 +2694,7 @@ Transform:
   - {fileID: 1575109884}
   - {fileID: 247879282}
   - {fileID: 5065078}
+  - {fileID: 1202910076}
   m_Father: {fileID: 562471541}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3958,7 +3959,7 @@ RectTransform:
   m_LocalScale: {x: 0.7355, y: 0.8858361, z: 0.7355}
   m_Children: []
   m_Father: {fileID: 562471541}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5002,7 +5003,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: OnSelectDeckChange
         m_Mode: 1
         m_Arguments:
@@ -5589,7 +5590,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1634067806}
         m_MethodName: UserLogin
         m_Mode: 1
         m_Arguments:
@@ -5702,7 +5703,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5976,9 +5977,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &529301177
 MonoBehaviour:
@@ -6098,7 +6099,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6609,7 +6610,6 @@ RectTransform:
   - {fileID: 195373864}
   - {fileID: 363061484}
   - {fileID: 736585519}
-  - {fileID: 1202910076}
   - {fileID: 1104300595}
   - {fileID: 1175790488}
   - {fileID: 327853748}
@@ -7941,7 +7941,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1634067806}
         m_MethodName: UserRegister
         m_Mode: 1
         m_Arguments:
@@ -9579,9 +9579,9 @@ RectTransform:
   m_Father: {fileID: 1788443579}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 115, y: -27}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 230, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &856177449
@@ -9599,7 +9599,7 @@ MonoBehaviour:
   onPointerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: FocusDeckCardOnMenu
         m_Mode: 2
         m_Arguments:
@@ -9613,7 +9613,7 @@ MonoBehaviour:
   onPointerExit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: LostFocusCardOnMenu
         m_Mode: 1
         m_Arguments:
@@ -9667,7 +9667,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: RemoveCardFromDeck
         m_Mode: 2
         m_Arguments:
@@ -10302,9 +10302,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &946729735
 MonoBehaviour:
@@ -11134,7 +11134,7 @@ RectTransform:
   m_LocalScale: {x: 2.043003, y: 12.923782, z: 10}
   m_Children: []
   m_Father: {fileID: 1202910076}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11630,7 +11630,7 @@ RectTransform:
   m_Children:
   - {fileID: 685738690}
   m_Father: {fileID: 562471541}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -12276,7 +12276,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: CancelDeck
         m_Mode: 1
         m_Arguments:
@@ -12359,9 +12359,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 11.75, y: -4.5}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1171870399
 MonoBehaviour:
@@ -12443,7 +12443,7 @@ RectTransform:
   m_LocalScale: {x: 0.7355, y: 0.8858361, z: 0.7355}
   m_Children: []
   m_Father: {fileID: 562471541}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -12972,7 +12972,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13098,14 +13098,13 @@ GameObject:
   - component: {fileID: 1202910076}
   - component: {fileID: 1202910078}
   - component: {fileID: 1202910077}
-  - component: {fileID: 1202910079}
   m_Layer: 5
-  m_Name: "\u724C\u5E93"
+  m_Name: "\u724C\u5E93\u7EC4\u4EF6"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1202910076
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13113,21 +13112,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202910075}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7355, y: 0.8858361, z: 0.7355}
+  m_LocalScale: {x: 0.7354999, y: 0.8858361, z: 0.73550004}
   m_Children:
   - {fileID: 2080271949}
-  - {fileID: 2024520655}
   - {fileID: 2071170136}
   - {fileID: 1003700942}
-  m_Father: {fileID: 562471541}
-  m_RootOrder: 4
+  m_Father: {fileID: 195373864}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1202910077
 MonoBehaviour:
@@ -13166,21 +13164,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202910075}
   m_CullTransparentMesh: 0
---- !u!114 &1202910079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202910075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a6edc61ff992b342b44e67fa752ceb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardLibraryContent: {fileID: 1707221863}
-  cardLibraryCardModel: {fileID: 1302326846}
-  cardDeckControl: {fileID: 0}
 --- !u!1 &1203838993
 GameObject:
   m_ObjectHideFlags: 0
@@ -14428,10 +14411,10 @@ RectTransform:
   m_Father: {fileID: 1707221864}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 30.15, y: -42.5}
-  m_SizeDelta: {x: 60.3, y: 85}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1302326848
 MonoBehaviour:
@@ -14476,7 +14459,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: AddCardToDeck
         m_Mode: 2
         m_Arguments:
@@ -14541,7 +14524,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1202910079}
+        - m_Target: {fileID: 0}
           m_MethodName: FocusLibraryCardOnMenu
           m_Mode: 2
           m_Arguments:
@@ -14556,7 +14539,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1202910079}
+        - m_Target: {fileID: 0}
           m_MethodName: LostFocusCardOnMenu
           m_Mode: 1
           m_Arguments:
@@ -14794,7 +14777,7 @@ MonoBehaviour:
   onPointerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: FocusDeckCardOnMenu
         m_Mode: 2
         m_Arguments:
@@ -14808,7 +14791,7 @@ MonoBehaviour:
   onPointerExit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: LostFocusCardOnMenu
         m_Mode: 1
         m_Arguments:
@@ -14862,7 +14845,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: RemoveCardFromDeck
         m_Mode: 2
         m_Arguments:
@@ -15108,9 +15091,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -1.0999985, y: 0}
-  m_SizeDelta: {x: 27.39, y: -4.5}
+  m_SizeDelta: {x: 27.39, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1368647580
 MonoBehaviour:
@@ -15154,7 +15137,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 529929717}
   m_HandleRect: {fileID: 529929716}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -15413,7 +15396,7 @@ MonoBehaviour:
   onPointerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: FocusDeckCardOnMenu
         m_Mode: 2
         m_Arguments:
@@ -15427,7 +15410,7 @@ MonoBehaviour:
   onPointerExit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: LostFocusCardOnMenu
         m_Mode: 1
         m_Arguments:
@@ -15481,7 +15464,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: RemoveCardFromDeck
         m_Mode: 2
         m_Arguments:
@@ -15692,7 +15675,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: RemoveCardFromDeck
         m_Mode: 2
         m_Arguments:
@@ -15755,7 +15738,7 @@ MonoBehaviour:
   onPointerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: FocusDeckCardOnMenu
         m_Mode: 2
         m_Arguments:
@@ -15769,7 +15752,7 @@ MonoBehaviour:
   onPointerExit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: LostFocusCardOnMenu
         m_Mode: 1
         m_Arguments:
@@ -17595,9 +17578,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1522547880
 MonoBehaviour:
@@ -18314,7 +18297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1575109884
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18784,7 +18767,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: OnSelectDeckChange
         m_Mode: 1
         m_Arguments:
@@ -18922,6 +18905,7 @@ GameObject:
   - component: {fileID: 1634067804}
   - component: {fileID: 1634067807}
   - component: {fileID: 1634067806}
+  - component: {fileID: 1634067808}
   - component: {fileID: 1634067805}
   m_Layer: 0
   m_Name: Control
@@ -19006,6 +18990,21 @@ MonoBehaviour:
   _shrinePage: {fileID: 1104300594}
   _collectPage: {fileID: 1175790487}
   _configPage: {fileID: 327853747}
+--- !u!114 &1634067808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634067803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6edc61ff992b342b44e67fa752ceb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardLibraryContent: {fileID: 1707221863}
+  cardLibraryCardModel: {fileID: 1302326846}
+  cardDeckControl: {fileID: 0}
 --- !u!1 &1657466396
 GameObject:
   m_ObjectHideFlags: 0
@@ -19629,7 +19628,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0000014305115, y: -0.000015258789}
-  m_SizeDelta: {x: -22.320007, y: 85}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1707221865
 MonoBehaviour:
@@ -20253,9 +20252,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 11.75, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1756404207
 MonoBehaviour:
@@ -20743,7 +20742,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.00016784668, y: -0.00001968842}
-  m_SizeDelta: {x: -3, y: 52}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1788443580
 MonoBehaviour:
@@ -21936,7 +21935,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: DeleteDeck
         m_Mode: 1
         m_Arguments:
@@ -22067,7 +22066,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: SaveDeck
         m_Mode: 1
         m_Arguments:
@@ -22686,7 +22685,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: OnSelectDeckChange
         m_Mode: 1
         m_Arguments:
@@ -23056,7 +23055,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: SaveDeck
         m_Mode: 1
         m_Arguments:
@@ -23215,7 +23214,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -24195,84 +24194,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &2024520654
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2024520655}
-  - component: {fileID: 2024520657}
-  - component: {fileID: 2024520656}
-  m_Layer: 5
-  m_Name: "\u724C\u5E93"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &2024520655
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024520654}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3596193, y: 1.128877, z: 1.3596193}
-  m_Children: []
-  m_Father: {fileID: 1202910076}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30.925129, y: 68.793274}
-  m_SizeDelta: {x: 1600, y: 300}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2024520656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024520654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 128
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 128
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\u724C\u5E93\n"
---- !u!222 &2024520657
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024520654}
-  m_CullTransparentMesh: 0
 --- !u!1 &2028661521
 GameObject:
   m_ObjectHideFlags: 0
@@ -24807,7 +24728,7 @@ RectTransform:
   m_Children:
   - {fileID: 894786955}
   m_Father: {fileID: 1202910076}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -24935,7 +24856,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1634067806}
         m_MethodName: UserServerSelect
         m_Mode: 1
         m_Arguments:
@@ -25406,7 +25327,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202910079}
+      - m_Target: {fileID: 0}
         m_MethodName: AddDeck
         m_Mode: 1
         m_Arguments:
