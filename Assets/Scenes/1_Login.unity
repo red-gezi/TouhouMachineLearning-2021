@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1480,7 +1480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &122846527
 Transform:
   m_ObjectHideFlags: 0
@@ -1492,8 +1492,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1315755273}
   - {fileID: 453518762}
+  - {fileID: 1315755273}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5387,7 +5387,7 @@ Transform:
   - {fileID: 5006512735230081906}
   - {fileID: 1426476725}
   m_Father: {fileID: 122846527}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &461821791
 GameObject:
@@ -18076,7 +18076,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e3870317ce505284e9fe2ce12b4eac50,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3870317ce505284e9fe2ce12b4eac50,
         type: 3}
@@ -22261,7 +22261,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 4ba5bf2006797b14eb54a43c506bcf4b, type: 2}
+  sharedProfile: {fileID: 0}
 --- !u!1 &1874455540
 GameObject:
   m_ObjectHideFlags: 0
