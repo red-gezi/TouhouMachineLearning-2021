@@ -17,7 +17,7 @@ namespace Control
         public bool isCardClick;
         public List<float> values;
         public GameObject deckModel;
-        public GameObject addDeckModel;
+        //public GameObject addDeckModel;
 
         public List<GameObject> deckModels;
         public int seleceDeckRank = 0;
@@ -56,12 +56,12 @@ namespace Control
                 deckModels[i].transform.GetComponent<Image>().sprite = cardTex;
             }
             values.Clear();
-            for (int i = 0; i < deckModels.Count; i++)
+            for (int i = 0; i < deckModels.Count-1; i++)
             {
                 values.Add(bias + i * fre);
             }
-            addDeckModel.SetActive(true);
-            addDeckModel.transform.SetAsLastSibling();
+            //addDeckModel.SetActive(true);
+            //addDeckModel.transform.SetAsLastSibling();
         }
         void Update()
         {

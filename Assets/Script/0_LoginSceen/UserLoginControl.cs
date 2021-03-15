@@ -40,10 +40,8 @@ namespace Control
             }
         }
         public void UserRegister() => Command.Network.NetCommand.Register(UserName.text, Password.text);
-        public void UserLogin()
-        {
-            Command.Network.NetCommand.Login(UserName.text, Password.text);
-        }
+        public void UserLogin() => Command.Network.NetCommand.Login(UserName.text, Password.text);
+        public void UserServerSelect() => Info.AgainstInfo.isHostNetMode = !Info.AgainstInfo.isHostNetMode;
 
         private void OnApplicationQuit() => Command.Network.NetCommand.Dispose();
     }
